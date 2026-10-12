@@ -1,0 +1,1769 @@
+{
+  "version": 1,
+  "duration": 6,
+  "exercises": {
+    "squat": {
+      "name": "深蹲",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧：参与控制下蹲时的屈膝，起身时参与伸膝。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀大肌区域",
+          "role": "primary",
+          "description": "臀部后侧：参与髋部运动控制与起身伸髋。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：多组肌肉共同帮助躯干在下蹲和起身时维持姿态。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "建立站姿与躯干稳定，高亮帮助定位本次展示的肌群。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "控制下蹲",
+          "text": "大腿前侧与臀部肌群参与控制下降，躯干肌群帮助维持姿态。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "底部停顿",
+          "text": "暂停移动时继续保持支撑与姿态，相关区域仍然参与。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "起身",
+          "text": "通过伸髋、伸膝回到站立，躯干继续保持稳定。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到站立位置，准备下一轮演示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "0.000014m 0.918852m 0.158343m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/",
+        "https://www.acefitness.org/continuingeducation/courses/support_items/CERT-YMCA-FGE/YMCA_Group_Cert_Workbook.pdf"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.680287,
+        "motionWidth": 1.250554,
+        "motionHeight": 1.835704,
+        "depthMargin": 0.841529
+      }
+    },
+    "pushup": {
+      "name": "俯卧撑",
+      "regions": [
+        {
+          "id": "chest",
+          "name": "胸大肌区域",
+          "role": "primary",
+          "description": "胸部前侧：参与上臂相对躯干的运动，与肩部和手臂肌群共同完成下降与推起。",
+          "view": "front"
+        },
+        {
+          "id": "triceps",
+          "name": "肱三头肌",
+          "role": "primary",
+          "description": "上臂后侧：下降时参与控制屈肘，推起时参与伸肘。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部表面区域：此动作重点涉及肩前侧，参与上臂运动并与胸部共同完成推起。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：帮助躯干与骨盆维持相对稳定，减少动作中的塌腰与摆动。",
+          "view": "side"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "从直臂支撑开始，躯干保持稳定。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "控制下降",
+          "text": "屈肘降低身体，胸部、肩部与上臂后侧共同参与控制下降。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "在低位短暂停顿，手臂支撑与躯干稳定仍在持续。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "推起",
+          "text": "胸部、肩部和肱三头肌共同参与推起，躯干随身体整体上升。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到直臂支撑，准备下一轮演示。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.000001m 0.305505m -0.125042m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/41/push-up/",
+        "https://www.acefitness.org/continuingeducation/courses/support_items/CERT-YMCA-FGE/YMCA_Group_Cert_Workbook.pdf"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 3.729837,
+        "motionWidth": 1.991262,
+        "motionHeight": 0.609191,
+        "depthMargin": 1.040541
+      }
+    },
+    "lunge": {
+      "name": "后撤弓步",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧：参与下降时的膝部控制和回升时的伸膝。两腿位置不同，色块不比较两侧负荷。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀大肌区域",
+          "role": "primary",
+          "description": "臀部后侧：参与髋部运动控制和回升时的伸髋。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：帮助后撤和回升过程中的躯干、骨盆保持稳定。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "这是单侧后撤弓步示范，每次循环展示同一侧的后撤与回位。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "后撤下蹲",
+          "text": "一脚后撤后屈髋、屈膝下降，大腿前侧与臀部参与运动控制，躯干维持稳定。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "在弓步低位短暂停顿，保持腿部支撑与躯干稳定。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "回升收回",
+          "text": "伸髋、伸膝回升，再将后撤脚收回；本段仍展示同一侧。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复站姿，下一轮重复同侧演示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "-0.000001m 0.919889m -0.261285m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/319/reverse-lunge/",
+        "https://www.acefitness.org/resources/pros/expert-articles/9158/ankles-knees-and-hips-10-joint-friendly-exercises-for-the-lower-extremity/",
+        "https://www.acefitness.org/continuingeducation/courses/support_items/CERT-YMCA-FGE/YMCA_Group_Cert_Workbook.pdf"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.763874,
+        "motionWidth": 1.326266,
+        "motionHeight": 1.837778,
+        "depthMargin": 0.878363
+      },
+      "demoNote": "单侧后撤弓步循环；训练时两侧分别完成。"
+    },
+    "bridge": {
+      "name": "臀桥",
+      "regions": [
+        {
+          "id": "glutes",
+          "name": "臀大肌区域",
+          "role": "primary",
+          "description": "臀部后侧：通过伸髋参与抬高骨盆，并参与控制回落。短裤上的色块表示对应表面区域。",
+          "view": "side"
+        },
+        {
+          "id": "hamstrings",
+          "name": "腘绳肌区域",
+          "role": "primary",
+          "description": "大腿后侧：与臀部共同参与伸髋，帮助完成抬髋和控制回落。",
+          "view": "side"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：在抬髋时帮助控制躯干和骨盆姿态，减少腰部过度后仰。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "仰卧屈膝、双脚着地，建立躯干稳定。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "抬髋",
+          "text": "臀部与大腿后侧共同参与伸髋，将骨盆抬离地面。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "抬髋保持",
+          "text": "在抬髋位置短暂停顿，保持臀部支撑与躯干稳定。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "控制下放",
+          "text": "控制骨盆下降，臀部、大腿后侧与躯干肌群继续参与姿态控制。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到仰卧屈膝位置，准备下一轮演示。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "-0.000006m 0.308987m 0.04978m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/49/glute-bridge/",
+        "https://www.acefitness.org/continuingeducation/courses/support_items/CERT-YMCA-FGE/YMCA_Group_Cert_Workbook.pdf"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 3.54684,
+        "motionWidth": 1.801391,
+        "motionHeight": 0.615982,
+        "depthMargin": 0.949719
+      }
+    },
+    "plank": {
+      "name": "平板支撑",
+      "regions": [
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "primary",
+          "description": "腹部与腰背的示意区域：本动作重点是保持躯干姿态，多组肌肉共同抵抗塌腰与摆动。",
+          "view": "side"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "stabilizer",
+          "description": "肩部表面区域：与其他肩带肌群共同参与上肢支撑，帮助肩部保持稳定。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀大肌区域",
+          "role": "stabilizer",
+          "description": "臀部后侧：帮助髋部和骨盆维持支撑姿态。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 6,
+          "label": "稳定保持",
+          "text": "整段演示保持平板支撑；躯干肌群持续参与姿态控制，肩部与臀部协助支撑。静止不代表肌肉停止参与。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.000001m 0.220869m -0.101072m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/",
+        "https://www.acefitness.org/resources/everyone/exercise-library/41/push-up/",
+        "https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/isometric-exercises/faq-20058186"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 3.33924,
+        "motionWidth": 1.977102,
+        "motionHeight": 0.439919,
+        "depthMargin": 1.011797
+      },
+      "demoNote": "静态保持示范，持续自然呼吸，按计划计时。"
+    },
+    "row": {
+      "name": "俯身划船",
+      "regions": [
+        {
+          "id": "lats",
+          "name": "背阔肌区域",
+          "role": "primary",
+          "description": "背部两侧：参与将上臂向躯干方向拉回，并控制手臂放回。",
+          "view": "back"
+        },
+        {
+          "id": "upper_back",
+          "name": "上背部区域",
+          "role": "primary",
+          "description": "肩胛骨周围的示意区域：包含斜方肌、菱形肌等，参与肩胛运动与划船时的控制。",
+          "view": "back"
+        },
+        {
+          "id": "biceps",
+          "name": "肱二头肌",
+          "role": "primary",
+          "description": "上臂前侧：在拉回动作中协同屈肘，在放回时参与控制伸肘；颜色不表示它比背部更用力。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：帮助身体在俯身姿态中维持稳定，减少随手臂来回摆动。",
+          "view": "side"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "保持俯身姿态，手臂自然向下，躯干稳定。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "向后拉回",
+          "text": "上臂向躯干方向拉回并屈肘，背部与肱二头肌共同参与。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "拉回停顿",
+          "text": "在拉回位置短暂停顿，保持肩胛与躯干稳定。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "控制放回",
+          "text": "逐渐伸肘放回手臂，保持俯身角度，背部与手臂参与控制。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "手臂回到起始位置，躯干继续维持俯身姿态。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0m 0.721542m 0.138999m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/12/bent-over-row/",
+        "https://contentcdn.eacefitness.com/April2018/ACE_BackExerStudy.pdf",
+        "https://www.acefitness.org/resources/pros/expert-articles/9033/building-better-biceps-evidence-based-exercises-for-strength-and-function/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 4.550597,
+        "motionWidth": 1.007516,
+        "motionHeight": 1.441084,
+        "depthMargin": 0.673083
+      }
+    },
+    "jumping_jack": {
+      "name": "开合跳",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧：参与跳起时的伸膝，并在落地阶段参与膝部运动控制。",
+          "view": "front"
+        },
+        {
+          "id": "calves",
+          "name": "小腿后侧肌群",
+          "role": "primary",
+          "description": "小腿后侧：腓肠肌、比目鱼肌等参与踝部蹬伸，并帮助控制落地后的踝部动作。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部表面区域：参与手臂向两侧抬起与放回的运动控制。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：在手脚开合过程中帮助维持躯干姿态。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "从双脚并拢、双臂位于身体两侧的站姿开始。"
+        },
+        {
+          "start": 0.5,
+          "end": 1.4,
+          "label": "缓冲并展开",
+          "text": "先屈膝准备，再跳起展开双脚并抬起手臂；腿部、踝部和肩部肌群共同参与。"
+        },
+        {
+          "start": 1.4,
+          "end": 3.5,
+          "label": "分腿落地稳定",
+          "text": "双脚分开落地，完成缓冲后保持展开站姿；这段停留便于观察手脚位置。"
+        },
+        {
+          "start": 3.5,
+          "end": 4.4,
+          "label": "缓冲并合拢",
+          "text": "从展开站姿屈膝准备，再跳起收回双脚，手臂随之放回身体两侧。"
+        },
+        {
+          "start": 4.4,
+          "end": 6,
+          "label": "合脚落地稳定",
+          "text": "双脚合拢落地并完成缓冲，回到起始站姿，准备下一轮演示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "-0.000001m 1.101149m -0.041054m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/jumping-jacks",
+        "https://www.hss.edu/health-library/move-better/guide-to-leg-muscles",
+        "https://www.acefitness.org/continuingeducation/courses/support_items/CERT-YMCA-FGE/YMCA_Group_Cert_Workbook.pdf"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 7.099166,
+        "motionWidth": 1.834709,
+        "motionHeight": 2.200299,
+        "depthMargin": 1.170836
+      }
+    },
+    "curl": {
+      "name": "肱二头肌弯举",
+      "regions": [
+        {
+          "id": "biceps",
+          "name": "肱二头肌",
+          "role": "primary",
+          "description": "上臂前侧：弯举时参与屈肘，手臂下放时继续参与运动控制。",
+          "view": "front"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "stabilizer",
+          "description": "肩部表面区域：与其他肩带肌群共同帮助上臂维持位置，减少弯举时前后摆动。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背的示意区域：帮助站姿保持稳定，减少借躯干摆动带动手臂。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "站稳并保持上臂靠近身体，躯干与肩部帮助维持姿态。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "向上弯举",
+          "text": "屈肘抬起前臂，上臂前侧的肱二头肌参与这一动作。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "弯举停顿",
+          "text": "在屈肘位置短暂停顿，上臂与躯干保持稳定。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "控制下放",
+          "text": "逐渐伸肘下放前臂，肱二头肌仍参与控制这一过程。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "手臂回到起始位置，准备下一轮演示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "-0.000001m 0.917572m 0.068002m",
+      "referenceUrls": [
+        "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/biceps-curl/vid-20084675",
+        "https://www.acefitness.org/resources/everyone/exercise-library/70/bicep-curl/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.233633,
+        "motionWidth": 0.817957,
+        "motionHeight": 1.83779,
+        "depthMargin": 0.632871
+      }
+    },
+    "kneeling_pushup": {
+      "name": "跪姿俯卧撑",
+      "regions": [
+        {
+          "id": "chest",
+          "name": "胸大肌区域",
+          "role": "primary",
+          "description": "胸部前侧参与上臂运动，与肩部和手臂肌群共同控制下放与推起。",
+          "view": "front"
+        },
+        {
+          "id": "triceps",
+          "name": "肱三头肌",
+          "role": "primary",
+          "description": "上臂后侧参与伸肘推起，并在回程时控制肘部屈曲。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部表面区域代表三角肌参与上臂运动，具体方向随动作而变化。",
+          "view": "side"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双手支撑，建立肩到膝或脚踝的稳定姿态。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "控制下降",
+          "text": "胸部与手臂肌群参与控制屈肘下降，躯干保持稳定。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "暂停移动时保持支撑，不塌腰或抬高臀部。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "平稳推起",
+          "text": "胸部、肩部与肱三头肌协同将身体推回。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复起始支撑，准备下一次演示。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.000001m 0.337139m -0.069938m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/13/bent-knee-push-up/"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 3.776487,
+        "motionWidth": 1.898257,
+        "motionHeight": 0.673902,
+        "depthMargin": 1.003997
+      }
+    },
+    "incline_pushup": {
+      "name": "上斜俯卧撑",
+      "regions": [
+        {
+          "id": "chest",
+          "name": "胸大肌区域",
+          "role": "primary",
+          "description": "胸部前侧参与上臂运动，与肩部和手臂肌群共同控制下放与推起。",
+          "view": "front"
+        },
+        {
+          "id": "triceps",
+          "name": "肱三头肌",
+          "role": "primary",
+          "description": "上臂后侧参与伸肘推起，并在回程时控制肘部屈曲。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部表面区域代表三角肌参与上臂运动，具体方向随动作而变化。",
+          "view": "side"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双手支撑，建立肩到膝或脚踝的稳定姿态。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "控制下降",
+          "text": "胸部与手臂肌群参与控制屈肘下降，躯干保持稳定。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "暂停移动时保持支撑，不塌腰或抬高臀部。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "平稳推起",
+          "text": "胸部、肩部与肱三头肌协同将身体推回。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复起始支撑，准备下一次演示。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0m 0.581314m -0.079027m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/incline-push-up"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.163832,
+        "motionWidth": 2.187996,
+        "motionHeight": 1.162627,
+        "depthMargin": 1.207176
+      },
+      "demoNote": "双手支撑在固定台面；训练前确认支撑稳固。"
+    },
+    "floor_press": {
+      "name": "哑铃地板卧推",
+      "regions": [
+        {
+          "id": "chest",
+          "name": "胸大肌区域",
+          "role": "primary",
+          "description": "胸部前侧参与上臂运动，与肩部和手臂肌群共同控制下放与推起。",
+          "view": "front"
+        },
+        {
+          "id": "triceps",
+          "name": "肱三头肌",
+          "role": "primary",
+          "description": "上臂后侧参与伸肘推起，并在回程时控制肘部屈曲。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部表面区域代表三角肌参与上臂运动，具体方向随动作而变化。",
+          "view": "side"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "仰卧屈膝，哑铃位于胸部两侧，上臂由地面限制下放幅度。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "向上推举",
+          "text": "胸部与上臂后侧参与推举，肩部协同控制哑铃方向。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "高位控制",
+          "text": "手腕与前臂保持稳定，避免锁死肘关节。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "缓慢下放",
+          "text": "缓慢屈肘，控制上臂轻触地面，不反弹。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到胸侧起始位置，准备下一轮。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0m 0.410315m -0.080256m",
+      "referenceUrls": [
+        "https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/chest-press/vid-20084677"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 4.241779,
+        "motionWidth": 2.036252,
+        "motionHeight": 0.818632,
+        "depthMargin": 1.089373
+      }
+    },
+    "shoulder_press": {
+      "name": "哑铃肩推",
+      "regions": [
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部三角肌区域参与头顶推举，示意重点为肩前侧与外侧。",
+          "view": "side"
+        },
+        {
+          "id": "triceps",
+          "name": "肱三头肌",
+          "role": "primary",
+          "description": "上臂后侧参与伸肘推起，并在回程时控制肘部屈曲。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚站稳，哑铃位于肩部两侧，躯干保持稳定。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "向上肩推",
+          "text": "肩部与肱三头肌协同抬臂伸肘，向头顶推举。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "头顶控制",
+          "text": "双臂高位保持控制，避免躯干后仰。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "控制下放",
+          "text": "肩部与手臂肌群参与控制哑铃回到肩侧。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复肩侧起始姿态，继续自然呼吸。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "0.000001m 1.092864m -0.052509m",
+      "referenceUrls": [
+        "https://www.acefitness.org/certifiednews/images/article/pdfs/ACEShoulderStudy.pdf"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 6.264959,
+        "motionWidth": 1.060429,
+        "motionHeight": 2.188373,
+        "depthMargin": 0.795344
+      }
+    },
+    "lateral_raise": {
+      "name": "哑铃侧平举",
+      "regions": [
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部外侧区域参与抬臂外展，并在回程控制手臂下降。",
+          "view": "side"
+        },
+        {
+          "id": "upper_back",
+          "name": "上背肩胛区域",
+          "role": "stabilizer",
+          "description": "肩胛周围肌群协同维持肩带控制；此色块是上背表面示意区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚站稳，肘部微屈，哑铃置于身体两侧。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "向两侧抬臂",
+          "text": "肩部参与抬臂，双臂与肘部同步向两侧移动。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "肩高控制",
+          "text": "抬至舒适的肩高附近，肩带与躯干保持稳定。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "缓慢下放",
+          "text": "缓慢降低手臂，不借助身体摆动。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到体侧，准备下次展示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "0m 0.919889m -0.060143m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 6.258374,
+        "motionWidth": 1.800289,
+        "motionHeight": 1.837778,
+        "depthMargin": 1.107299
+      }
+    },
+    "single_arm_row": {
+      "name": "单臂哑铃划船",
+      "regions": [
+        {
+          "id": "lats",
+          "name": "背阔肌区域",
+          "role": "primary",
+          "description": "本示范高亮右侧拉动区域。背部外侧参与将上臂向躯干方向拉回，控制单臂划船的拉起与放回。",
+          "view": "back",
+          "side": "right"
+        },
+        {
+          "id": "upper_back",
+          "name": "上背肩胛区域",
+          "role": "primary",
+          "description": "本示范高亮右侧拉动区域。肩胛周围的上背肌群参与肩胛运动控制，与背阔肌共同完成拉动。",
+          "view": "back",
+          "side": "right"
+        },
+        {
+          "id": "biceps",
+          "name": "肱二头肌",
+          "role": "primary",
+          "description": "本示范高亮右侧拉动区域。上臂前侧参与屈肘，并与背部肌群共同控制哑铃运动。",
+          "view": "front",
+          "side": "right"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "左手置于固定支撑，右手持哑铃下垂，髋部折叠。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "单臂拉起",
+          "text": "右臂沿身体一侧拉起，背部与屈肘肌群共同参与。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "拉起停顿",
+          "text": "保持右肘后拉姿态，不旋转躯干。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "缓慢放回",
+          "text": "控制右手哑铃下放，左手继续稳定支撑。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到下垂位置，准备下一次单侧示范。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.08911m 0.617195m 0.106123m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 4.293808,
+        "motionWidth": 1.201266,
+        "motionHeight": 1.234391,
+        "depthMargin": 0.739909
+      },
+      "demoNote": "单侧示范：左手支撑稳固台面，右臂划船；训练时换侧完成。"
+    },
+    "reverse_fly": {
+      "name": "俯身反向飞鸟",
+      "regions": [
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩后侧参与将上臂向两侧展开；此表面色块示意三角肌所在区域。",
+          "view": "side"
+        },
+        {
+          "id": "upper_back",
+          "name": "上背肩胛区域",
+          "role": "primary",
+          "description": "上背肩胛周围肌群参与双臂展开时的肩胛运动与控制。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "屈髋俯身、膝盖微屈，哑铃位于肩部下方。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "双臂展开",
+          "text": "肩后侧与上背肌群共同参与向两侧展开双臂。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "展开控制",
+          "text": "保持肘部微屈与躯干稳定，不抬头挺腰。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "缓慢放回",
+          "text": "控制双臂回到下垂位置，避免快速回落。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "重新建立稳定俯身姿态，准备下一轮。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0m 0.63351m 0.086132m",
+      "referenceUrls": [
+        "https://www.acefitness.org/certifiednewsarticle/2384/correct-cues-for-scapular-motion/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.16812,
+        "motionWidth": 1.974185,
+        "motionHeight": 1.26502,
+        "depthMargin": 1.117164
+      }
+    },
+    "romanian_deadlift": {
+      "name": "哑铃罗马尼亚硬拉",
+      "regions": [
+        {
+          "id": "hamstrings",
+          "name": "腘绳肌区域",
+          "role": "primary",
+          "description": "大腿后侧在屈髋下放时参与控制，并与臀部共同参与站起伸髋。",
+          "view": "back"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "primary",
+          "description": "臀部肌群在下降时参与髋部控制，回升时参与伸髋与支撑身体。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚站稳，膝盖微屈，哑铃靠近腿部。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "屈髋下放",
+          "text": "髋部向后移动，大腿后侧与臀部参与控制下放。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位控制",
+          "text": "到可控深度保持背部自然姿态，不继续含胸下探。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "伸髋站起",
+          "text": "通过伸髋回到站立，臀部与大腿后侧共同参与。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复站姿，不向后过度挺腰。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0m 0.919889m -0.011465m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.514985,
+        "motionWidth": 1.087684,
+        "motionHeight": 1.837778,
+        "depthMargin": 0.763137
+      }
+    },
+    "sumo_squat": {
+      "name": "相扑深蹲",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧在下降时参与屈膝控制，回升时参与伸膝与支撑身体。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "primary",
+          "description": "臀部肌群在下降时参与髋部控制，回升时参与伸髋与支撑身体。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "宽站姿，脚尖舒适外展，膝盖沿脚尖方向。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "宽站下蹲",
+          "text": "大腿前侧与臀部参与屈膝屈髋控制，躯干保持稳定。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "在舒适幅度内停顿，双脚保持着地。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "伸髋起身",
+          "text": "大腿与臀部共同参与伸膝伸髋，回到站立。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "保持宽站姿，准备下一次演示。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "0.000006m 0.886995m 0.148041m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/",
+        "https://www.montgomeryschoolsmd.org/siteassets/district/departments/ersc/wellness/workit/work_it_circuit_guide.pdf"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.568111,
+        "motionWidth": 1.278627,
+        "motionHeight": 1.77199,
+        "depthMargin": 0.846842
+      },
+      "demoNote": "宽站姿版本；大腿内侧也参与，此模型未单独绘制该区域。"
+    },
+    "split_squat": {
+      "name": "分腿蹲",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧在下降时参与屈膝控制，回升时参与伸膝与支撑身体。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "primary",
+          "description": "臀部肌群在下降时参与髋部控制，回升时参与伸髋与支撑身体。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "固定前后分腿站姿，后脚跟抬起。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "分腿下降",
+          "text": "两膝屈曲、身体下降，前侧大腿与臀部参与支撑控制。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "低位停顿",
+          "text": "保持前脚稳定着地与躯干姿态。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "平稳回升",
+          "text": "通过伸膝伸髋回到原来的前后站姿。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "保持脚的位置，准备下一次单侧展示。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "-0.000135m 0.844233m -0.128847m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/pros/expert-articles/5296/exercises-for-obese-clients-training-progressions-to-try/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.308282,
+        "motionWidth": 1.211579,
+        "motionHeight": 1.686466,
+        "depthMargin": 0.803392
+      },
+      "demoNote": "单侧固定分腿蹲示范；训练时两侧分别完成，不是交替迈步弓步。"
+    },
+    "lateral_lunge": {
+      "name": "侧弓步",
+      "regions": [
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "primary",
+          "description": "大腿前侧在下降时参与屈膝控制，回升时参与伸膝与支撑身体。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "primary",
+          "description": "臀部肌群在下降时参与髋部控制，回升时参与伸髋与支撑身体。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚宽站，整个循环不移动脚掌。"
+        },
+        {
+          "start": 0.5,
+          "end": 1.5,
+          "label": "左侧屈膝",
+          "text": "向左侧屈髋屈膝，左腿前侧与臀部参与控制。"
+        },
+        {
+          "start": 1.5,
+          "end": 2.5,
+          "label": "左侧回中",
+          "text": "通过左腿伸膝伸髋回到中间。"
+        },
+        {
+          "start": 2.5,
+          "end": 3.5,
+          "label": "中间换侧",
+          "text": "躯干恢复稳定，准备转移至另一侧。"
+        },
+        {
+          "start": 3.5,
+          "end": 4.5,
+          "label": "右侧屈膝",
+          "text": "向右侧屈髋屈膝，右腿前侧与臀部参与控制。"
+        },
+        {
+          "start": 4.5,
+          "end": 5.5,
+          "label": "右侧回中",
+          "text": "控制身体回到中间，脚掌继续稳定接触地面。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到宽站起始位置。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "-0.000005m 0.891594m 0.049878m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/50/side-lunge/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.738937,
+        "motionWidth": 1.4228,
+        "motionHeight": 1.781189,
+        "depthMargin": 0.917663
+      },
+      "demoNote": "固定宽站姿左右转移重心的演示；大腿内侧也参与，模型未单独绘制。"
+    },
+    "calf_raise": {
+      "name": "站姿提踵",
+      "regions": [
+        {
+          "id": "calves",
+          "name": "小腿后侧肌群",
+          "role": "primary",
+          "description": "小腿后侧肌群参与脚踝跖屈抬起脚跟，并控制脚跟缓慢落回。",
+          "view": "back"
+        },
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "stabilizer",
+          "description": "大腿前侧帮助维持站立时的膝部姿态，避免提踵时反复屈膝弹跳。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚稳定着地，躯干直立。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "脚跟抬起",
+          "text": "小腿后侧参与抬起脚跟，重心平稳上移。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "高位保持",
+          "text": "保持脚踝控制，不向内或向外翻倒。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "脚跟下落",
+          "text": "小腿肌群控制脚跟缓慢下降。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "脚跟回到地面，准备下一轮。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "-0.000135m 0.948579m -0.02725m",
+      "referenceUrls": [
+        "https://www.acefitness.org/resources/everyone/exercise-library/73/standing-calf-raises-wall/"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 5.1885,
+        "motionWidth": 0.649976,
+        "motionHeight": 1.89639,
+        "depthMargin": 0.559325
+      }
+    },
+    "dead_bug": {
+      "name": "死虫式",
+      "regions": [
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "primary",
+          "description": "腹部与腰背共同帮助抵抗四肢伸展时的躯干移动，重点是保持腰盆稳定。",
+          "view": "front"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "stabilizer",
+          "description": "肩部参与控制手臂伸展与收回，此处表示动作控制而非测得的参与强弱。",
+          "view": "side"
+        },
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "stabilizer",
+          "description": "大腿前侧参与伸展腿部时的膝部控制，躯干稳定仍是本动作的重点。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "仰卧，双手朝上，髋膝屈曲。"
+        },
+        {
+          "start": 0.5,
+          "end": 1.5,
+          "label": "第一侧伸展",
+          "text": "伸展一组对侧手脚，腹部保持稳定，不拱腰。"
+        },
+        {
+          "start": 1.5,
+          "end": 2.5,
+          "label": "第一侧收回",
+          "text": "控制手脚回到仰卧抬起的位置。"
+        },
+        {
+          "start": 2.5,
+          "end": 3.5,
+          "label": "中间换侧",
+          "text": "维持躯干稳定，准备交换对侧手脚。"
+        },
+        {
+          "start": 3.5,
+          "end": 4.5,
+          "label": "对侧伸展",
+          "text": "伸展另一组对侧手脚，继续自然呼吸。"
+        },
+        {
+          "start": 4.5,
+          "end": 5.5,
+          "label": "对侧收回",
+          "text": "控制手脚收回，不靠摆动完成动作。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复双手向上、双膝屈曲姿态。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.000001m 0.423321m -0.044205m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/dead-bug"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 4.535186,
+        "motionWidth": 2.26215,
+        "motionHeight": 0.844643,
+        "depthMargin": 1.201839
+      },
+      "demoNote": "左右交替的慢速示范；展示幅度按躯干能维持稳定的范围选择。"
+    },
+    "bird_dog": {
+      "name": "鸟狗式",
+      "regions": [
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "primary",
+          "description": "腹部与腰背共同稳定躯干，帮助抵抗对侧手脚伸展带来的旋转与塌腰。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "stabilizer",
+          "description": "臀部区域参与伸腿与骨盆控制，辅助维持四点跪撑时的稳定姿态。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "stabilizer",
+          "description": "肩部肌群参与支撑与伸臂控制，帮助上肢在动作过程中保持稳定。",
+          "view": "side"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双手双膝支撑，建立平稳的四点跪姿。"
+        },
+        {
+          "start": 0.5,
+          "end": 3,
+          "label": "对侧伸展",
+          "text": "左臂前伸、右腿后伸，躯干肌群共同维持姿态。"
+        },
+        {
+          "start": 3,
+          "end": 3.5,
+          "label": "伸展保持",
+          "text": "保持手脚延伸，避免抬得过高或旋转骨盆。"
+        },
+        {
+          "start": 3.5,
+          "end": 5.5,
+          "label": "控制收回",
+          "text": "缓慢收回左臂右腿，重新建立四点支撑。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "回到起始跪姿，准备下一次单侧示范。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.028737m 0.325565m -0.065762m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/bird-dog"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 4.255565,
+        "motionWidth": 2.409634,
+        "motionHeight": 0.649404,
+        "depthMargin": 1.247803
+      },
+      "demoNote": "单侧示范：左臂与右腿同时伸展；训练时换另一组对侧手脚完成。"
+    },
+    "side_plank": {
+      "name": "侧平板支撑",
+      "regions": [
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "primary",
+          "description": "腹侧与腰侧多组肌肉共同抵抗侧向下沉；表面色块不能区分深层肌肉。",
+          "view": "front"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "stabilizer",
+          "description": "髋部周围肌群辅助维持侧向支撑与骨盆稳定。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "stabilizer",
+          "description": "支撑侧肩部参与肩带稳定，与前臂共同帮助保持上肢支撑。",
+          "view": "side"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 6,
+          "label": "稳定保持",
+          "text": "以前臂与足部支撑，躯干和髋部保持连线，持续自然呼吸；静态阶段肌群仍参与。"
+        }
+      ],
+      "defaultView": "side",
+      "cameraTarget": "0.150205m 0.382581m -0.214237m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/side-plank"
+      ],
+      "camera": {
+        "floor": true,
+        "minDistance": 3.940366,
+        "motionWidth": 1.865376,
+        "motionHeight": 0.763163,
+        "depthMargin": 0.999668
+      },
+      "demoNote": "单侧静态示范：右前臂支撑；训练时两侧分别计时完成。"
+    },
+    "step_jack": {
+      "name": "低冲击开合步",
+      "regions": [
+        {
+          "id": "deltoids",
+          "name": "三角肌区域",
+          "role": "primary",
+          "description": "肩部肌群参与双臂向外抬起及放回，配合左右侧迈动作。",
+          "view": "side"
+        },
+        {
+          "id": "glutes",
+          "name": "臀部肌群区域",
+          "role": "primary",
+          "description": "髋部肌群参与侧迈与重心移动，辅助维持下肢控制。短裤上的色块表示对应表面区域。",
+          "view": "back"
+        },
+        {
+          "id": "quads",
+          "name": "股四头肌",
+          "role": "stabilizer",
+          "description": "大腿前侧辅助支撑腿控制膝部姿态，此动作不包含跳起落地。",
+          "view": "front"
+        },
+        {
+          "id": "core",
+          "name": "躯干稳定区域",
+          "role": "stabilizer",
+          "description": "腹部与腰背共同帮助维持躯干姿态，减少动作中的后仰、摆动或旋转。",
+          "view": "front"
+        }
+      ],
+      "phases": [
+        {
+          "start": 0,
+          "end": 0.5,
+          "label": "准备",
+          "text": "双脚站稳，双臂位于身体两侧。"
+        },
+        {
+          "start": 0.5,
+          "end": 1.2,
+          "label": "左侧迈出",
+          "text": "左脚侧迈、双臂抬起，至少一脚保持接触地面。"
+        },
+        {
+          "start": 1.2,
+          "end": 1.8,
+          "label": "左侧展开",
+          "text": "维持展开姿态，肩部与下肢协同控制，躯干保持稳定。"
+        },
+        {
+          "start": 1.8,
+          "end": 2.5,
+          "label": "左侧收回",
+          "text": "左脚收回，双臂缓慢下落。"
+        },
+        {
+          "start": 2.5,
+          "end": 3.5,
+          "label": "中间换侧",
+          "text": "双脚合拢，准备向另一侧迈步。"
+        },
+        {
+          "start": 3.5,
+          "end": 4.2,
+          "label": "右侧迈出",
+          "text": "右脚侧迈、双臂抬起，继续保持地面支撑。"
+        },
+        {
+          "start": 4.2,
+          "end": 4.8,
+          "label": "右侧展开",
+          "text": "保持手脚协调，避免躯干摇晃。"
+        },
+        {
+          "start": 4.8,
+          "end": 5.5,
+          "label": "右侧收回",
+          "text": "右脚收回，双臂控制下落。"
+        },
+        {
+          "start": 5.5,
+          "end": 6,
+          "label": "回到起始",
+          "text": "恢复站姿，准备下一轮交替迈步。"
+        }
+      ],
+      "defaultView": "front",
+      "cameraTarget": "0m 0.996294m 0.003948m",
+      "referenceUrls": [
+        "https://www.nasm.org/resource-center/exercise-library/jumping-jacks"
+      ],
+      "camera": {
+        "floor": false,
+        "minDistance": 6.708064,
+        "motionWidth": 1.906132,
+        "motionHeight": 1.990588,
+        "depthMargin": 1.178192
+      },
+      "demoNote": "左右交替迈步，始终至少一脚着地；慢速循环用于看清手脚配合。"
+    }
+  }
+}

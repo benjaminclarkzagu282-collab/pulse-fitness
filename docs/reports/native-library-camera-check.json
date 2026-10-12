@@ -1,0 +1,270 @@
+{
+  "build_report_sha256": "802e84a5f0771e177b9da509cc78fe4d9760ef1884c15609100169a556c10e1f",
+  "passed": true,
+  "exercises": {
+    "shoulder_press": {
+      "max_viewport_fraction": 0.7487026257207035,
+      "cameraTarget": "0.000001m 1.092864m -0.052509m",
+      "camera": {
+        "floor": false,
+        "minDistance": 6.264959,
+        "motionWidth": 1.060429,
+        "motionHeight": 2.188373,
+        "depthMargin": 0.795344
+      }
+    },
+    "curl": {
+      "max_viewport_fraction": 0.7595050137260713,
+      "cameraTarget": "-0.000001m 0.917572m 0.068002m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.233633,
+        "motionWidth": 0.817957,
+        "motionHeight": 1.83779,
+        "depthMargin": 0.632871
+      }
+    },
+    "squat": {
+      "max_viewport_fraction": 0.762876018783321,
+      "cameraTarget": "0.000014m 0.918852m 0.158343m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.680287,
+        "motionWidth": 1.250554,
+        "motionHeight": 1.835704,
+        "depthMargin": 0.841529
+      }
+    },
+    "pushup": {
+      "max_viewport_fraction": 0.7430198341141355,
+      "cameraTarget": "0.000001m 0.305505m -0.125042m",
+      "camera": {
+        "floor": true,
+        "minDistance": 3.729837,
+        "motionWidth": 1.991262,
+        "motionHeight": 0.609191,
+        "depthMargin": 1.040541
+      }
+    },
+    "lunge": {
+      "max_viewport_fraction": 0.7425363918473122,
+      "cameraTarget": "-0.000001m 0.919889m -0.261285m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.763874,
+        "motionWidth": 1.326266,
+        "motionHeight": 1.837778,
+        "depthMargin": 0.878363
+      }
+    },
+    "bridge": {
+      "max_viewport_fraction": 0.7686056509115903,
+      "cameraTarget": "-0.000006m 0.308987m 0.04978m",
+      "camera": {
+        "floor": true,
+        "minDistance": 3.54684,
+        "motionWidth": 1.801391,
+        "motionHeight": 0.615982,
+        "depthMargin": 0.949719
+      }
+    },
+    "plank": {
+      "max_viewport_fraction": 0.762930981058359,
+      "cameraTarget": "0.000001m 0.220869m -0.101072m",
+      "camera": {
+        "floor": true,
+        "minDistance": 3.33924,
+        "motionWidth": 1.977102,
+        "motionHeight": 0.439919,
+        "depthMargin": 1.011797
+      }
+    },
+    "row": {
+      "max_viewport_fraction": 0.7666959244918621,
+      "cameraTarget": "0m 0.721542m 0.138999m",
+      "camera": {
+        "floor": false,
+        "minDistance": 4.550597,
+        "motionWidth": 1.007516,
+        "motionHeight": 1.441084,
+        "depthMargin": 0.673083
+      }
+    },
+    "jumping_jack": {
+      "max_viewport_fraction": 0.7774563328522882,
+      "cameraTarget": "-0.000001m 1.101149m -0.041054m",
+      "camera": {
+        "floor": false,
+        "minDistance": 7.099166,
+        "motionWidth": 1.834709,
+        "motionHeight": 2.200299,
+        "depthMargin": 1.170836
+      }
+    },
+    "kneeling_pushup": {
+      "max_viewport_fraction": 0.746360627240272,
+      "cameraTarget": "0.000001m 0.337139m -0.069938m",
+      "camera": {
+        "floor": true,
+        "minDistance": 3.776487,
+        "motionWidth": 1.898257,
+        "motionHeight": 0.673902,
+        "depthMargin": 1.003997
+      }
+    },
+    "incline_pushup": {
+      "max_viewport_fraction": 0.7649479204765505,
+      "cameraTarget": "0m 0.581314m -0.079027m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.163832,
+        "motionWidth": 2.187996,
+        "motionHeight": 1.162627,
+        "depthMargin": 1.207176
+      }
+    },
+    "floor_press": {
+      "max_viewport_fraction": 0.7725434159759844,
+      "cameraTarget": "0m 0.410315m -0.080256m",
+      "camera": {
+        "floor": true,
+        "minDistance": 4.241779,
+        "motionWidth": 2.036252,
+        "motionHeight": 0.818632,
+        "depthMargin": 1.089373
+      }
+    },
+    "lateral_raise": {
+      "max_viewport_fraction": 0.778573911840769,
+      "cameraTarget": "0m 0.919889m -0.060143m",
+      "camera": {
+        "floor": false,
+        "minDistance": 6.258374,
+        "motionWidth": 1.800289,
+        "motionHeight": 1.837778,
+        "depthMargin": 1.107299
+      }
+    },
+    "single_arm_row": {
+      "max_viewport_fraction": 0.7724240561114853,
+      "cameraTarget": "0.08911m 0.617195m 0.106123m",
+      "camera": {
+        "floor": false,
+        "minDistance": 4.293808,
+        "motionWidth": 1.201266,
+        "motionHeight": 1.234391,
+        "depthMargin": 0.739909
+      }
+    },
+    "reverse_fly": {
+      "max_viewport_fraction": 0.7555853461782307,
+      "cameraTarget": "0m 0.63351m 0.086132m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.16812,
+        "motionWidth": 1.974185,
+        "motionHeight": 1.26502,
+        "depthMargin": 1.117164
+      }
+    },
+    "romanian_deadlift": {
+      "max_viewport_fraction": 0.7691611142901602,
+      "cameraTarget": "0m 0.919889m -0.011465m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.514985,
+        "motionWidth": 1.087684,
+        "motionHeight": 1.837778,
+        "depthMargin": 0.763137
+      }
+    },
+    "sumo_squat": {
+      "max_viewport_fraction": 0.7743339128947354,
+      "cameraTarget": "0.000006m 0.886995m 0.148041m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.568111,
+        "motionWidth": 1.278627,
+        "motionHeight": 1.77199,
+        "depthMargin": 0.846842
+      }
+    },
+    "split_squat": {
+      "max_viewport_fraction": 0.7476564982299712,
+      "cameraTarget": "-0.000135m 0.844233m -0.128847m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.308282,
+        "motionWidth": 1.211579,
+        "motionHeight": 1.686466,
+        "depthMargin": 0.803392
+      }
+    },
+    "lateral_lunge": {
+      "max_viewport_fraction": 0.7764968011294472,
+      "cameraTarget": "-0.000005m 0.891594m 0.049878m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.738937,
+        "motionWidth": 1.4228,
+        "motionHeight": 1.781189,
+        "depthMargin": 0.917663
+      }
+    },
+    "calf_raise": {
+      "max_viewport_fraction": 0.7268883682759799,
+      "cameraTarget": "-0.000135m 0.948579m -0.02725m",
+      "camera": {
+        "floor": false,
+        "minDistance": 5.1885,
+        "motionWidth": 0.649976,
+        "motionHeight": 1.89639,
+        "depthMargin": 0.559325
+      }
+    },
+    "dead_bug": {
+      "max_viewport_fraction": 0.7764162186879385,
+      "cameraTarget": "0.000001m 0.423321m -0.044205m",
+      "camera": {
+        "floor": true,
+        "minDistance": 4.535186,
+        "motionWidth": 2.26215,
+        "motionHeight": 0.844643,
+        "depthMargin": 1.201839
+      }
+    },
+    "bird_dog": {
+      "max_viewport_fraction": 0.7755648850788929,
+      "cameraTarget": "0.028737m 0.325565m -0.065762m",
+      "camera": {
+        "floor": true,
+        "minDistance": 4.255565,
+        "motionWidth": 2.409634,
+        "motionHeight": 0.649404,
+        "depthMargin": 1.247803
+      }
+    },
+    "side_plank": {
+      "max_viewport_fraction": 0.7604044201997493,
+      "cameraTarget": "0.150205m 0.382581m -0.214237m",
+      "camera": {
+        "floor": true,
+        "minDistance": 3.940366,
+        "motionWidth": 1.865376,
+        "motionHeight": 0.763163,
+        "depthMargin": 0.999668
+      }
+    },
+    "step_jack": {
+      "max_viewport_fraction": 0.773805103128822,
+      "cameraTarget": "0m 0.996294m 0.003948m",
+      "camera": {
+        "floor": false,
+        "minDistance": 6.708064,
+        "motionWidth": 1.906132,
+        "motionHeight": 1.990588,
+        "depthMargin": 1.178192
+      }
+    }
+  }
+}

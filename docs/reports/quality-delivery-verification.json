@@ -1,0 +1,32 @@
+{
+  "squat": {
+    "sha256": "219226454d3e347211c71b2eb24c79e8b304f0cd9b18d54442ec45dbecdfe0e8",
+    "bytes": 7367644,
+    "motion_and_skin_preserved": true,
+    "regions": [
+      "quads",
+      "glutes",
+      "core"
+    ]
+  },
+  "curl": {
+    "sha256": "ba90c81f50647a05986c89330e002a89ae98a4a595039cf09f7d5414106c3c6c",
+    "bytes": 7449124,
+    "motion_and_skin_preserved": true,
+    "regions": [
+      "biceps",
+      "deltoids",
+      "core"
+    ]
+  },
+  "shoulder_press": {
+    "sha256": "16d388f058080ff62651f93d16c6378a40e4a8dae117e572bcce44fe8e08f9fd",
+    "bytes": 7459480,
+    "motion_and_skin_preserved": true,
+    "regions": [
+      "deltoids",
+      "triceps",
+      "core"
+    ]
+  }
+}

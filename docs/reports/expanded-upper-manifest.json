@@ -1,0 +1,264 @@
+{
+  "source": {
+    "path": ".build/realistic-character/athlete-source.blend",
+    "bytes": 11862854,
+    "sha256": "f94a16296fdcade19edc509df33b25993341e4021bc7f245c1b820942f4ddd83"
+  },
+  "authoring": {
+    "path": "tools/motion_upper.py",
+    "bytes": 9085,
+    "sha256": "43d00062e152d6b433ca7cc8f0c7f35318c8b37eaa9588c307a4b1fb9938e381"
+  },
+  "checker": {
+    "path": "tools/check_motion_upper.py",
+    "bytes": 11978,
+    "sha256": "e2e891838c43666cee513585bab93956ae7272493dc6141b735410ca350370c4"
+  },
+  "verification": {
+    "path": ".build/motion-library/upper-all-verification.json",
+    "bytes": 17936,
+    "sha256": "739ab8e48400f60b42a2496abea0e254afd9841c4ff2a00dc45a8ea268acc9d8"
+  },
+  "artifacts": [
+    {
+      "id": "kneeling_pushup",
+      "files": [
+        {
+          "path": ".build/motion-library/kneeling_pushup.blend",
+          "bytes": 18798058,
+          "sha256": "051f735f9c3fbb4dd39845fd8797857a9a174cfc8292080513fbfd7a871b0b6a"
+        },
+        {
+          "path": ".build/motion-library/base/kneeling_pushup.glb",
+          "bytes": 7310164,
+          "sha256": "9cc240960656dee1f758856a101fb7c07281101f9f90e8e2dfe4c08a15be1329"
+        },
+        {
+          "path": ".build/motion-library/renders/kneeling_pushup-start.png",
+          "bytes": 255769,
+          "sha256": "dadd0e24ca616d289437adedfb5af90dfd79700597bf64e99a1337a30e39dbc0"
+        },
+        {
+          "path": ".build/motion-library/renders/kneeling_pushup-middle.png",
+          "bytes": 243848,
+          "sha256": "59adc8b8f20cedab40b6292fa8b10fcbf8509c52937b0bff48138d1c004339a8"
+        },
+        {
+          "path": ".build/motion-library/renders/kneeling_pushup-end.png",
+          "bytes": 239515,
+          "sha256": "ecd12df43ddfc1a3027893177a1b9b5972d0cc98b67d927e522c308335d46ffb"
+        }
+      ]
+    },
+    {
+      "id": "incline_pushup",
+      "files": [
+        {
+          "path": ".build/motion-library/incline_pushup.blend",
+          "bytes": 18854643,
+          "sha256": "1faa3eca6a408d5b7f44a41f2703cb88193daccaf040f59a2eb15a20b67bed24"
+        },
+        {
+          "path": ".build/motion-library/base/incline_pushup.glb",
+          "bytes": 7316252,
+          "sha256": "ffe5d7cdb1f39fc74a688334737391600bf2919db0984a07b8fb65583f16c5fd"
+        },
+        {
+          "path": ".build/motion-library/renders/incline_pushup-start.png",
+          "bytes": 273424,
+          "sha256": "d2c5d524fae5a5a13b32cf340bab720a506ee98b444f9afe42965864ac33c159"
+        },
+        {
+          "path": ".build/motion-library/renders/incline_pushup-middle.png",
+          "bytes": 254402,
+          "sha256": "a71910444e2b9a302b7ddba46dfb46ad03c0264827fde8662edbe13a1f1e1ed7"
+        },
+        {
+          "path": ".build/motion-library/renders/incline_pushup-end.png",
+          "bytes": 235526,
+          "sha256": "f68615651be26c650c156affeeddf626dd5a9df3b0934e6af9390b974ce5f693"
+        }
+      ]
+    },
+    {
+      "id": "floor_press",
+      "files": [
+        {
+          "path": ".build/motion-library/floor_press.blend",
+          "bytes": 18851755,
+          "sha256": "0be50b0217f1769d14c8e67843b94fa6b843eda986d5e1ae038cf82b24a84ade"
+        },
+        {
+          "path": ".build/motion-library/base/floor_press.glb",
+          "bytes": 7339192,
+          "sha256": "f797516ed0b93bcaa0e45ab6eefa95613067d6d65fedad1b5305d75da2608402"
+        },
+        {
+          "path": ".build/motion-library/renders/floor_press-start.png",
+          "bytes": 253867,
+          "sha256": "4f5f384b49406b11548052c4cf9529289d2030106fda997cea995311bfdefeaa"
+        },
+        {
+          "path": ".build/motion-library/renders/floor_press-middle.png",
+          "bytes": 262216,
+          "sha256": "32035e32ae4bdc01b35a6c09986b76e843d39e9e9c0660e89da3e0e082e665ee"
+        },
+        {
+          "path": ".build/motion-library/renders/floor_press-end.png",
+          "bytes": 296668,
+          "sha256": "219f816bdf465136567833af4bf20a5f2397ea6d2d4f228883aac3fca8266b36"
+        }
+      ]
+    },
+    {
+      "id": "shoulder_press",
+      "files": [
+        {
+          "path": ".build/motion-library/shoulder_press.blend",
+          "bytes": 18851579,
+          "sha256": "9173e1d66056c86e5f48c557b5f6c677d4001a99c0e7c3004343dec3d3065b21"
+        },
+        {
+          "path": ".build/motion-library/base/shoulder_press.glb",
+          "bytes": 7286524,
+          "sha256": "871279f7799e4fbb6f78672c6d337f42c619c761cb8d3650e5d16e2a17bab714"
+        },
+        {
+          "path": ".build/motion-library/renders/shoulder_press-start.png",
+          "bytes": 287486,
+          "sha256": "b836ea1019325c01bc99fb052910aebc716c4f1da2dbe46bbc4e30d19d678df9"
+        },
+        {
+          "path": ".build/motion-library/renders/shoulder_press-middle.png",
+          "bytes": 278656,
+          "sha256": "21163a3e7e50d0ba1e0a0d93f3bf86c4969ff044d47811e0fcd6770718870738"
+        },
+        {
+          "path": ".build/motion-library/renders/shoulder_press-end.png",
+          "bytes": 270217,
+          "sha256": "b07918989e51049fb919962e2119e60050dd52bbbf7af0c7f4395b2431c77a61"
+        }
+      ]
+    },
+    {
+      "id": "lateral_raise",
+      "files": [
+        {
+          "path": ".build/motion-library/lateral_raise.blend",
+          "bytes": 18851579,
+          "sha256": "be6271efec1fb32d1d8882f96d52464137aa7ce546c3a0bb65bee4d19b417f0d"
+        },
+        {
+          "path": ".build/motion-library/base/lateral_raise.glb",
+          "bytes": 7286524,
+          "sha256": "fc83c55883f2910f45113da5182f6e23ce7f05001f0186f828a13ab88be1f35f"
+        },
+        {
+          "path": ".build/motion-library/renders/lateral_raise-start.png",
+          "bytes": 292411,
+          "sha256": "5e001c62e7e96d3e61e18e8fba81a1b9b9dc597173261021457bcdea83574f1f"
+        },
+        {
+          "path": ".build/motion-library/renders/lateral_raise-middle.png",
+          "bytes": 300043,
+          "sha256": "b220e1e904eade419d3ec16fbfd47b634bf9c6c3797458d570c92f0a6ba70928"
+        },
+        {
+          "path": ".build/motion-library/renders/lateral_raise-end.png",
+          "bytes": 294331,
+          "sha256": "509cd7a386d18da71a2ec4eb1aae3e5fdfa41a3a7f83530b5962346aca943c8d"
+        }
+      ]
+    },
+    {
+      "id": "single_arm_row",
+      "files": [
+        {
+          "path": ".build/motion-library/single_arm_row.blend",
+          "bytes": 18892636,
+          "sha256": "0224463553cb4738c4c5884112bfaf14431e46894b6e88903b7c7e0a2f9f4972"
+        },
+        {
+          "path": ".build/motion-library/base/single_arm_row.glb",
+          "bytes": 7320520,
+          "sha256": "b005b441203e2b3da866fa9a09d5f915fd7675f27f69decece4d2a4b0a3e3c15"
+        },
+        {
+          "path": ".build/motion-library/renders/single_arm_row-start.png",
+          "bytes": 367237,
+          "sha256": "294530f1ce6038e78039a37463cc56fa4e6ac91deb924d8d31f0cd021f50016c"
+        },
+        {
+          "path": ".build/motion-library/renders/single_arm_row-middle.png",
+          "bytes": 360295,
+          "sha256": "a9975966f95ca0e9edd7d484945f248c0276bfcda8fc312c53c6613b54d519cc"
+        },
+        {
+          "path": ".build/motion-library/renders/single_arm_row-end.png",
+          "bytes": 351814,
+          "sha256": "ac2c28f5787bbf2e99fbfc152bcad74387b2cf25a3415e73fe70a7157bb4ae1b"
+        }
+      ]
+    },
+    {
+      "id": "reverse_fly",
+      "files": [
+        {
+          "path": ".build/motion-library/reverse_fly.blend",
+          "bytes": 18851579,
+          "sha256": "7ead990868583dff6e8b36085bddd3937b974fb3fb6623ac3fa72c66780d121c"
+        },
+        {
+          "path": ".build/motion-library/base/reverse_fly.glb",
+          "bytes": 7286524,
+          "sha256": "9e308aede36893c7dcdbed1ed6b7cae2c3b8bd49699533fb783f39448d2be857"
+        },
+        {
+          "path": ".build/motion-library/renders/reverse_fly-start.png",
+          "bytes": 361272,
+          "sha256": "c3e7e6e98b191fc6c59575d9140a170a1ffcf2feb25d97426f0bc748211c008b"
+        },
+        {
+          "path": ".build/motion-library/renders/reverse_fly-middle.png",
+          "bytes": 316347,
+          "sha256": "7b5e8a52cbb92ba5c479b6e9e31f595a6baaf68d24a3298f19c3a309f6b20d34"
+        },
+        {
+          "path": ".build/motion-library/renders/reverse_fly-end.png",
+          "bytes": 254588,
+          "sha256": "db0f2d856de59f431b652c0890307ad2b00dadc91ce5b330e0dc7d515f8149d3"
+        }
+      ]
+    },
+    {
+      "id": "romanian_deadlift",
+      "files": [
+        {
+          "path": ".build/motion-library/romanian_deadlift.blend",
+          "bytes": 18851579,
+          "sha256": "75480a642b7b6d108863a24eb005fd1be39615ccdc8b94f955c5509693abe466"
+        },
+        {
+          "path": ".build/motion-library/base/romanian_deadlift.glb",
+          "bytes": 7286524,
+          "sha256": "3a791658cafdd602a8a72f18b5806df1fbf5d283eeac05ce1299c03610a99341"
+        },
+        {
+          "path": ".build/motion-library/renders/romanian_deadlift-start.png",
+          "bytes": 290862,
+          "sha256": "dc19db717c8713ccadbec9ec8eb66d526a50756e09fdfe3f4967b034e71d479c"
+        },
+        {
+          "path": ".build/motion-library/renders/romanian_deadlift-middle.png",
+          "bytes": 307319,
+          "sha256": "b239ca9500311a42ea3d172bc5f3943e6103bda6d1dad9d9f1eb0d30f69be218"
+        },
+        {
+          "path": ".build/motion-library/renders/romanian_deadlift-end.png",
+          "bytes": 352071,
+          "sha256": "53eb1a0395a681668c21ca9d6d37326053165a58b5c33fba6aeecfbfb1d38a0d"
+        }
+      ]
+    }
+  ]
+}

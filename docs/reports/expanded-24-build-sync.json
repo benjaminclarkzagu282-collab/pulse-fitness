@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "count": 51,
+  "files": [
+    {
+      "source": "assets/models/athlete_squat.glb",
+      "built": "build/web/assets/assets/models/athlete_squat.glb",
+      "sha256": "4f3f5f9f0813cdb8665c7dff5b530e49f30ffdfcc37eef994e067e779ec54e87"
+    },
+    {
+      "source": "assets/images/athlete_squat.png",
+      "built": "build/web/assets/assets/images/athlete_squat.png",
+      "sha256": "93f37dbb9d89b4ca3d5a5ec38ac416b667bb39a418b1b342759864e4c72bffdf"
+    },
+    {
+      "source": "assets/models/athlete_pushup.glb",
+      "built": "build/web/assets/assets/models/athlete_pushup.glb",
+      "sha256": "20b1f4595f543bbd1d673bf66006dcaf36a2cd201fe6c3910d3519eb1d6b2983"
+    },
+    {
+      "source": "assets/images/athlete_pushup.png",
+      "built": "build/web/assets/assets/images/athlete_pushup.png",
+      "sha256": "a8a7cf205973141646459dab3113a80fdb458fe6bd6e88b3c7a7cb1b0e11fc4b"
+    },
+    {
+      "source": "assets/models/athlete_lunge.glb",
+      "built": "build/web/assets/assets/models/athlete_lunge.glb",
+      "sha256": "02be533433fa448f15c5f50c8a35c52e5890e3bd4eb8a10795827e957f89fed1"
+    },
+    {
+      "source": "assets/images/athlete_lunge.png",
+      "built": "build/web/assets/assets/images/athlete_lunge.png",
+      "sha256": "e083ba89a5144a120c3a019217282fe656dbba0905fe48636678ce3450e67359"
+    },
+    {
+      "source": "assets/models/athlete_bridge.glb",
+      "built": "build/web/assets/assets/models/athlete_bridge.glb",
+      "sha256": "fbb2fee9ebf24eca916cd1367894fe77d31652d77237889de6a440f08f4d71d3"
+    },
+    {
+      "source": "assets/images/athlete_bridge.png",
+      "built": "build/web/assets/assets/images/athlete_bridge.png",
+      "sha256": "e3adc0eac783fe9b552c6a1481f51d83024bb8c1250a5a6efe66a02931d6cc1f"
+    },
+    {
+      "source": "assets/models/athlete_plank.glb",
+      "built": "build/web/assets/assets/models/athlete_plank.glb",
+      "sha256": "24c8274b77e3a0ac3381a28243353c2003fb82ceaa50625f98284b17caf9e0e3"
+    },
+    {
+      "source": "assets/images/athlete_plank.png",
+      "built": "build/web/assets/assets/images/athlete_plank.png",
+      "sha256": "5df01ce1c88a0a1e085f18b894002d461f41adbccbe020de34728de01a138252"
+    },
+    {
+      "source": "assets/models/athlete_row.glb",
+      "built": "build/web/assets/assets/models/athlete_row.glb",
+      "sha256": "dc4e80b6e24faf3e12840e2c15c822bd690bf5b33ec135f18fc2fe18d9212a2c"
+    },
+    {
+      "source": "assets/images/athlete_row.png",
+      "built": "build/web/assets/assets/images/athlete_row.png",
+      "sha256": "3a8208fe0872cfc7d1241604dd054f056876553e102609ed969cbecf313be488"
+    },
+    {
+      "source": "assets/models/athlete_jumping_jack.glb",
+      "built": "build/web/assets/assets/models/athlete_jumping_jack.glb",
+      "sha256": "28aef784f2496eff40586f2728287f70ed31d9b031981cfd263d8e7ca9749512"
+    },
+    {
+      "source": "assets/images/athlete_jumping_jack.png",
+      "built": "build/web/assets/assets/images/athlete_jumping_jack.png",
+      "sha256": "24cc1a010626854ea7845b82e94f40e5c190869154b137c02dc9b302cdf0c69e"
+    },
+    {
+      "source": "assets/models/athlete_curl.glb",
+      "built": "build/web/assets/assets/models/athlete_curl.glb",
+      "sha256": "989103cb2fb7a56d4420cbe909feef071ff51a1e35334fbf26f669b795053add"
+    },
+    {
+      "source": "assets/images/athlete_curl.png",
+      "built": "build/web/assets/assets/images/athlete_curl.png",
+      "sha256": "69cd6512cb67c9229832e515c0e4d565c251f6c6029c7b3612056a00f6e34066"
+    },
+    {
+      "source": "assets/models/athlete_kneeling_pushup.glb",
+      "built": "build/web/assets/assets/models/athlete_kneeling_pushup.glb",
+      "sha256": "cb775934ccd86d6076b89d6a6d518cf1fac640ffe013c576842d6d3de96e7e89"
+    },
+    {
+      "source": "assets/images/athlete_kneeling_pushup.png",
+      "built": "build/web/assets/assets/images/athlete_kneeling_pushup.png",
+      "sha256": "ecd12df43ddfc1a3027893177a1b9b5972d0cc98b67d927e522c308335d46ffb"
+    },
+    {
+      "source": "assets/models/athlete_incline_pushup.glb",
+      "built": "build/web/assets/assets/models/athlete_incline_pushup.glb",
+      "sha256": "293b16991d4388e658526cec594aa203e4bb3e960cc73ed9d8bc49b98372d654"
+    },
+    {
+      "source": "assets/images/athlete_incline_pushup.png",
+      "built": "build/web/assets/assets/images/athlete_incline_pushup.png",
+      "sha256": "f68615651be26c650c156affeeddf626dd5a9df3b0934e6af9390b974ce5f693"
+    },
+    {
+      "source": "assets/models/athlete_floor_press.glb",
+      "built": "build/web/assets/assets/models/athlete_floor_press.glb",
+      "sha256": "3b228de233c959b17b7430a9c23036e32f20090a92a7c9bb0b236d2e37e6e0bf"
+    },
+    {
+      "source": "assets/images/athlete_floor_press.png",
+      "built": "build/web/assets/assets/images/athlete_floor_press.png",
+      "sha256": "219f816bdf465136567833af4bf20a5f2397ea6d2d4f228883aac3fca8266b36"
+    },
+    {
+      "source": "assets/models/athlete_shoulder_press.glb",
+      "built": "build/web/assets/assets/models/athlete_shoulder_press.glb",
+      "sha256": "f034363c53884fe44069552ae0d82deb8e172b08afb06260baaaea79bc8c9a54"
+    },
+    {
+      "source": "assets/images/athlete_shoulder_press.png",
+      "built": "build/web/assets/assets/images/athlete_shoulder_press.png",
+      "sha256": "b07918989e51049fb919962e2119e60050dd52bbbf7af0c7f4395b2431c77a61"
+    },
+    {
+      "source": "assets/models/athlete_lateral_raise.glb",
+      "built": "build/web/assets/assets/models/athlete_lateral_raise.glb",
+      "sha256": "1d197730b5ff5defd5be5a74848d80355b0d64d1e151c63996a8ef1e0ba01a2a"
+    },
+    {
+      "source": "assets/images/athlete_lateral_raise.png",
+      "built": "build/web/assets/assets/images/athlete_lateral_raise.png",
+      "sha256": "509cd7a386d18da71a2ec4eb1aae3e5fdfa41a3a7f83530b5962346aca943c8d"
+    },
+    {
+      "source": "assets/models/athlete_single_arm_row.glb",
+      "built": "build/web/assets/assets/models/athlete_single_arm_row.glb",
+      "sha256": "85b0b3f5f6bbcf4682a4f9c9c91720457000b06e6bb2b91c0ca0311c1555d32c"
+    },
+    {
+      "source": "assets/images/athlete_single_arm_row.png",
+      "built": "build/web/assets/assets/images/athlete_single_arm_row.png",
+      "sha256": "ac2c28f5787bbf2e99fbfc152bcad74387b2cf25a3415e73fe70a7157bb4ae1b"
+    },
+    {
+      "source": "assets/models/athlete_reverse_fly.glb",
+      "built": "build/web/assets/assets/models/athlete_reverse_fly.glb",
+      "sha256": "ad93ffcc5634111440eef121267745e801d35c5aca83dae8cd54a6dd5d008827"
+    },
+    {
+      "source": "assets/images/athlete_reverse_fly.png",
+      "built": "build/web/assets/assets/images/athlete_reverse_fly.png",
+      "sha256": "db0f2d856de59f431b652c0890307ad2b00dadc91ce5b330e0dc7d515f8149d3"
+    },
+    {
+      "source": "assets/models/athlete_romanian_deadlift.glb",
+      "built": "build/web/assets/assets/models/athlete_romanian_deadlift.glb",
+      "sha256": "aa80c48e10afac1a30435439fea60e41bafa9b74c7b010d732aa5a8bbcda3f08"
+    },
+    {
+      "source": "assets/images/athlete_romanian_deadlift.png",
+      "built": "build/web/assets/assets/images/athlete_romanian_deadlift.png",
+      "sha256": "53eb1a0395a681668c21ca9d6d37326053165a58b5c33fba6aeecfbfb1d38a0d"
+    },
+    {
+      "source": "assets/models/athlete_sumo_squat.glb",
+      "built": "build/web/assets/assets/models/athlete_sumo_squat.glb",
+      "sha256": "9c66b89e45a4d1d9d18bc828a3fa8f9f9a5a9b0dd7d058aa86dec60496e33dd5"
+    },
+    {
+      "source": "assets/images/athlete_sumo_squat.png",
+      "built": "build/web/assets/assets/images/athlete_sumo_squat.png",
+      "sha256": "e01386fdb2276edc9e757ed109c341ef3e2f5fb82c1fc58902692118c51049bf"
+    },
+    {
+      "source": "assets/models/athlete_split_squat.glb",
+      "built": "build/web/assets/assets/models/athlete_split_squat.glb",
+      "sha256": "793c387e4cd21616bbf37a4f3bb58231d44bb7270d908981b927606d4d651bc0"
+    },
+    {
+      "source": "assets/images/athlete_split_squat.png",
+      "built": "build/web/assets/assets/images/athlete_split_squat.png",
+      "sha256": "99d2a7b8425aef0bccc392702e8dc9a3fd5e3025bf39983f768da3c342439c8f"
+    },
+    {
+      "source": "assets/models/athlete_lateral_lunge.glb",
+      "built": "build/web/assets/assets/models/athlete_lateral_lunge.glb",
+      "sha256": "bd940398ace0fb95eb89c1f41606a8b17539abe5e38c9dc9270da43b7972cb6f"
+    },
+    {
+      "source": "assets/images/athlete_lateral_lunge.png",
+      "built": "build/web/assets/assets/images/athlete_lateral_lunge.png",
+      "sha256": "554423edb4cf5ac9d88eaf2973cdbb9023bcf8c895bfd62a66b460d224ab1de9"
+    },
+    {
+      "source": "assets/models/athlete_calf_raise.glb",
+      "built": "build/web/assets/assets/models/athlete_calf_raise.glb",
+      "sha256": "9dab1496acc75423884a351ec287d29b2c6ca234da1859b232d099cc0ee76f39"
+    },
+    {
+      "source": "assets/images/athlete_calf_raise.png",
+      "built": "build/web/assets/assets/images/athlete_calf_raise.png",
+      "sha256": "828a6623a3d10503a92c5994d7b9b3fb511c706c1773cfbcba2dd18c333fccb1"
+    },
+    {
+      "source": "assets/models/athlete_dead_bug.glb",
+      "built": "build/web/assets/assets/models/athlete_dead_bug.glb",
+      "sha256": "f8501a10b5f9dc8f5bf2f4318dfe8dea1de9339a38108a010da4c4db777e5d63"
+    },
+    {
+      "source": "assets/images/athlete_dead_bug.png",
+      "built": "build/web/assets/assets/images/athlete_dead_bug.png",
+      "sha256": "4cf7e50ae6227b5b9f6ad55735273dc7975f6f102dcc5c92e7dca8eff96c7300"
+    },
+    {
+      "source": "assets/models/athlete_bird_dog.glb",
+      "built": "build/web/assets/assets/models/athlete_bird_dog.glb",
+      "sha256": "8c2460c0aece1dbe5d654a411b95dc8a94fa56360023c647c842ef2b57d8074a"
+    },
+    {
+      "source": "assets/images/athlete_bird_dog.png",
+      "built": "build/web/assets/assets/images/athlete_bird_dog.png",
+      "sha256": "f8a3a648dec9fe1c7b04e6cf9829d61625053dc028f15fc6fe681c15f0c933ae"
+    },
+    {
+      "source": "assets/models/athlete_side_plank.glb",
+      "built": "build/web/assets/assets/models/athlete_side_plank.glb",
+      "sha256": "eed1728b1aa98e505d7c3463474abb582b0eb20aa472da1a0f31990954bff056"
+    },
+    {
+      "source": "assets/images/athlete_side_plank.png",
+      "built": "build/web/assets/assets/images/athlete_side_plank.png",
+      "sha256": "0356c89af30dba492488a2914080c1a3a6a4e2696fbf87f0a2a450b4b4576109"
+    },
+    {
+      "source": "assets/models/athlete_step_jack.glb",
+      "built": "build/web/assets/assets/models/athlete_step_jack.glb",
+      "sha256": "d2b5d08cb3e1fa03a909c768ff0a4eaa3af28b1035befac35497e1fca2d4ec6a"
+    },
+    {
+      "source": "assets/images/athlete_step_jack.png",
+      "built": "build/web/assets/assets/images/athlete_step_jack.png",
+      "sha256": "918c9139bbd80026c3951bb306031ebc1df0488fa1184b502c084b4e529a6013"
+    },
+    {
+      "source": "assets/muscles/catalog.json",
+      "built": "build/web/assets/assets/muscles/catalog.json",
+      "sha256": "7f9a6db35640b744dce60ceee28c32219aa9c3e5d48a17825f96a06869e69f28"
+    },
+    {
+      "source": "assets/muscles/controller.js",
+      "built": "build/web/assets/assets/muscles/controller.js",
+      "sha256": "650329c0c3909122f2834aa645b91247c2ecfc26c3a8bd24edcb30ef9b72f8ac"
+    },
+    {
+      "source": "web/exercise-review.html",
+      "built": "build/web/exercise-review.html",
+      "sha256": "de5354015bce445e36fcbef8fa6151c1056b71d51bb1a174491c2748f94512ec"
+    }
+  ]
+}

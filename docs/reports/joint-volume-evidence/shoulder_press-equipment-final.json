@@ -1,0 +1,10 @@
+{
+  "asset": "web/review/quality-v2/shoulder_press.glb",
+  "sha256": "8b7e37660cd4179957220b181dbe88c3f409fdf2795f78de30da4690c4af9667",
+  "samples": 361,
+  "hand_min_clearance_m": 0.00020320310027850327,
+  "plate_min_clearance_m": 0.02383372795232837,
+  "body_min_clearance_m": 0.04269425942528043,
+  "max_finger_contact_gap_m": 0.0007165175899454326,
+  "failures": []
+}

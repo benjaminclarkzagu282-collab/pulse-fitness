@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PULSE 动态健身：按自己的节奏训练，记录饮食，看见每一点进步。">
+  <meta name="theme-color" content="#101411">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <title>PULSE · 动起来</title>
+  <script type="module" src="assets/packages/model_viewer_plus/assets/model-viewer.min.js"></script>
+  <style>
+    html,body{margin:0;background:#101411;color:#f1f3ea;font-family:system-ui,sans-serif}
+    #loading{position:fixed;inset:0;display:grid;place-content:center;text-align:center}
+    #loading strong{font-size:38px;letter-spacing:7px;color:#d0f879}
+    #loading p{font-size:13px;color:#9da799;letter-spacing:2px;margin-top:18px}
+    #loading .line{height:2px;width:150px;background:#30382f;margin:24px auto;overflow:hidden}
+    #loading .line:after{content:'';display:block;width:50px;height:2px;background:#d0f879;animation:load 1.5s ease-in-out infinite}
+    @keyframes load{from{transform:translateX(-50px)}to{transform:translateX(160px)}}
+  </style>
+</head>
+<body>
+  <div id="loading"><strong>PULSE</strong><p>每一次行动，都算数。</p><div class="line"></div></div>
+  <script>window.addEventListener('flutter-first-frame',()=>document.getElementById('loading')?.remove());</script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

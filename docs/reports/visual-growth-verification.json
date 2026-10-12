@@ -1,0 +1,56 @@
+{
+  "flutter_tests": 197,
+  "controller_tests": 12,
+  "dart_analysis": "No issues found",
+  "release_web": "Built build/web, exit 0",
+  "screenshots": {
+    "visual-growth-body-form-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-body-trend-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-desktop.jpg": {
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG"
+    },
+    "visual-growth-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-program-confirm-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-program-preview-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-programs-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    },
+    "visual-growth-progress-mobile.jpg": {
+      "width": 390,
+      "height": 844,
+      "format": "JPEG"
+    }
+  },
+  "protected_source_files_checked": 13,
+  "protected_source_files_changed": [],
+  "generated_cover_sha256": "3fba85be72dde4405725695f95f8bc04e5f11da55462fb128c191ea8d3d39266",
+  "browser_error_warn_logs": [],
+  "qa_main_storage_writes": false,
+  "viewport_reset": true,
+  "public_deployment": false,
+  "native_iphone_acceptance": false
+}

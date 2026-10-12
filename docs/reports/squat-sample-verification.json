@@ -1,0 +1,119 @@
+{
+  "motion": {
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      3.133011221886568e-07,
+      "thigh_r -> calf_r",
+      0.1527777777777778
+    ],
+    "foot_drift_m": 0.00010215450817467729,
+    "loop_gap_m": 5.640832552536637e-07,
+    "max_foot_rotation_rad": 0,
+    "max_relative_limb_length_error": 2.46899619749108e-06,
+    "minimum_skin_height_m": -2.324255183339119e-05,
+    "max_sole_contact_height_m": 0.000519297260325402
+  },
+  "asset": {
+    "bytes": 6962932,
+    "sha256": "b03eb1639daec9993cf56f9e387712e0a6418fb427fd8b7b78adc6b1d20e7fc9",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 12,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 229,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "professional_review": "pending",
+  "legacy_wrist_gap_m": 0.018550682748373633,
+  "negative_root_slide_m": 0.020000159834608382,
+  "negative_root_slide_rejected": true
+}

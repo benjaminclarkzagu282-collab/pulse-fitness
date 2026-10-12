@@ -1,0 +1,15 @@
+{
+  "xcode": {
+    "exit_code": 1,
+    "output": "xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance"
+  },
+  "active_developer_directory": {
+    "exit_code": 0,
+    "output": "/Library/Developer/CommandLineTools"
+  },
+  "cocoapods_available": false,
+  "ios_project_present": true,
+  "device_acceptance_completed": false,
+  "coach_review_completed": false,
+  "native_build_ready": false
+}

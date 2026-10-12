@@ -1,0 +1,39 @@
+name: pulse_fitness
+description: 'PULSE — 自定义训练、3D 跟练与饮食记录'
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: ^3.13.4
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.5
+  model_viewer_plus: ^1.10.0
+  web: ^1.1.1
+  webview_flutter: ^4.14.1
+  http: ^1.6.0
+  crypto: ^3.0.7
+  archive: ^3.6.1
+  path_provider: ^2.1.6
+  video_player: ^2.10.1
+  url_launcher: ^6.3.2
+  cupertino_icons: ^1.0.9
+  share_plus: ^13.3.1
+  cross_file: ^0.3.5+5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  video_player_platform_interface: ^6.9.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/athlete_squat.glb
+    - assets/models/athlete_pushup.glb
+    - assets/images/
+    - assets/muscles/
+    - assets/videos/
+  fonts:
+    - family: NotoSansSC
+      fonts:
+        - asset: assets/fonts/NotoSansSC.ttf

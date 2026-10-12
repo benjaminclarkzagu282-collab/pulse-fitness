@@ -1,0 +1,34 @@
+{
+  "bridge.glb": {
+    "bytes": 7312452,
+    "sha256": "bb4f7aa313367c99c8b4626010eaf8b2d2aad90e62bd31cc512e343dc5e43d87"
+  },
+  "curl.glb": {
+    "bytes": 7286516,
+    "sha256": "14852005badc4959981a4efbde688f08f667d37f49d7ebef3f4921cc121e6dc9"
+  },
+  "jumping_jack.glb": {
+    "bytes": 7259784,
+    "sha256": "ace5af6b225fc551d7299e55f6ba6d89d096f3d53723f370eee751d9c6187fa8"
+  },
+  "lunge.glb": {
+    "bytes": 7268944,
+    "sha256": "2c96ba26d99f0c6836317936317987a158fb599a18d5d80ac883db705da8e93c"
+  },
+  "plank.glb": {
+    "bytes": 7296424,
+    "sha256": "f4ec165b353d8493d97852c23a9a570401ce2a83dbed9066ed2c6f22f6e036d6"
+  },
+  "pushup.glb": {
+    "bytes": 7307872,
+    "sha256": "dc874f2feb58b9c51870c6e7f71c7e67a1611cfc521f4ddcf7295e4b3b046468"
+  },
+  "row.glb": {
+    "bytes": 7284224,
+    "sha256": "792d6492aef313f3f86eff0433388e21c244b264b1d2dbb15249b996bec9d7fb"
+  },
+  "squat.glb": {
+    "bytes": 7259784,
+    "sha256": "05eed9b89e4e57017bf78eb2a2de076b5f072ff459b34c3454c0722b140e56ad"
+  }
+}

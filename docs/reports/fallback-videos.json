@@ -1,0 +1,158 @@
+{
+  "count": 24,
+  "total_bytes": 793877,
+  "codec": "H.264 / MP4",
+  "resolution": [
+    256,
+    320
+  ],
+  "fps": 10,
+  "source": "unchanged original-rig/native-library-02 editable animations",
+  "coach_review_completed": false,
+  "videos": [
+    {
+      "id": "squat",
+      "duration": 6.0,
+      "bytes": 35839,
+      "sha256": "b7d75d460d41ec3ce3b9693b3ac024238663eb8f05e5dd04367c1cafca4fd699"
+    },
+    {
+      "id": "pushup",
+      "duration": 6.0,
+      "bytes": 29586,
+      "sha256": "0ef620fe6d9ddd1f335d9103832277700ca7b9d3296e28066b1320c14b1086d4"
+    },
+    {
+      "id": "lunge",
+      "duration": 6.0,
+      "bytes": 37057,
+      "sha256": "6ccb90477a21b1eff3e70962235c78761fcf344ebd16ad4ce73db3b3688695e4"
+    },
+    {
+      "id": "bridge",
+      "duration": 6.0,
+      "bytes": 31037,
+      "sha256": "e2df5d155f209b6e32928f5df17283a2505005c5f1e7e4417cfec31ebd783bdd"
+    },
+    {
+      "id": "plank",
+      "duration": 6.0,
+      "bytes": 17160,
+      "sha256": "ff0eb505494e68b38aa6a7bcc84059bc49ffd9b9a8b3f54d711304d09cd4fd5a"
+    },
+    {
+      "id": "row",
+      "duration": 6.0,
+      "bytes": 39347,
+      "sha256": "703368e04790696e1fd2aa6d511a2b6c80b416dbd73b5ebb4d1c7a8d76309f76"
+    },
+    {
+      "id": "jumping_jack",
+      "duration": 6.0,
+      "bytes": 32780,
+      "sha256": "f8c7351558c06796133d7aacee989ba00a7b438cf5b33a3e31f3ea43c41cd8db"
+    },
+    {
+      "id": "curl",
+      "duration": 6.0,
+      "bytes": 31961,
+      "sha256": "cecda9a985bf9877ad6ac551b7201570d5fea94ae87ed0786dea7d3092b65791"
+    },
+    {
+      "id": "kneeling_pushup",
+      "duration": 6.0,
+      "bytes": 30409,
+      "sha256": "e1db9f1db93c9d09fd99843e6402f9209be0b7f193071ad90a72528a99691f49"
+    },
+    {
+      "id": "incline_pushup",
+      "duration": 6.0,
+      "bytes": 41923,
+      "sha256": "7fbceea8c04b7ea4e4a895f530b6d0b8b83579f9f75db52a22269cf6470240c0"
+    },
+    {
+      "id": "floor_press",
+      "duration": 6.0,
+      "bytes": 32111,
+      "sha256": "6747f5fca512a045ca31c2ef2cd126ac87e2e32a6fa7fdb5487b7fb0b4fa0380"
+    },
+    {
+      "id": "shoulder_press",
+      "duration": 6.0,
+      "bytes": 31102,
+      "sha256": "9a057ef14da7d53a261405c258c1ebd9455e29bd84b36a3808f5784e2c442a64"
+    },
+    {
+      "id": "lateral_raise",
+      "duration": 6.0,
+      "bytes": 37682,
+      "sha256": "1d2c5c735faf4b7282caf5df710387f6f031a9c22a6fc8a793a24add522ff713"
+    },
+    {
+      "id": "single_arm_row",
+      "duration": 6.0,
+      "bytes": 34775,
+      "sha256": "dbc784d347c5f71577f443d6cc54824feb143ca9fee39f8cdc8a0cd4c789d96b"
+    },
+    {
+      "id": "reverse_fly",
+      "duration": 6.0,
+      "bytes": 39147,
+      "sha256": "64cdb7741cc47800cfcff77fbb8225e19d3dc95f3f21a70d54540f80fb23b511"
+    },
+    {
+      "id": "romanian_deadlift",
+      "duration": 6.0,
+      "bytes": 39810,
+      "sha256": "31af2f9ae59eb9adc4111282d4a662d4f70dbdc29b0ee121d08a4f4a631601a0"
+    },
+    {
+      "id": "sumo_squat",
+      "duration": 6.0,
+      "bytes": 37374,
+      "sha256": "c798cdb85ee01fcb07dd52c9101bac1dd45bc5a6f811d087416451f19af3a31b"
+    },
+    {
+      "id": "split_squat",
+      "duration": 6.0,
+      "bytes": 34643,
+      "sha256": "20435a801934c794db680848be3700ea19570668f4d2fc0587149d31bd0b9c1b"
+    },
+    {
+      "id": "lateral_lunge",
+      "duration": 6.0,
+      "bytes": 37906,
+      "sha256": "b324bd083481b56e83e19f550452267417adb5630d93bb3f9c8e9a559f62195e"
+    },
+    {
+      "id": "calf_raise",
+      "duration": 6.0,
+      "bytes": 30242,
+      "sha256": "8dc83e74b140a443af1368b3acac1a8e67b5e91dc98e7f721e40b22e8b1cec9e"
+    },
+    {
+      "id": "dead_bug",
+      "duration": 6.0,
+      "bytes": 29075,
+      "sha256": "0b325086530b8bc9f3ce42332507e01760d39e5e4510f41f8853c04cb995cb5a"
+    },
+    {
+      "id": "bird_dog",
+      "duration": 6.0,
+      "bytes": 25786,
+      "sha256": "d422bd13fac224df9e872b6ad231a3f23bfed495e4b0e1ed69f7931b9ced93d5"
+    },
+    {
+      "id": "side_plank",
+      "duration": 6.0,
+      "bytes": 16992,
+      "sha256": "77e74990b7a673ceacbf0b2641d4f2f06c9ce460fbd8c57a37aedb364a8ac9ae"
+    },
+    {
+      "id": "step_jack",
+      "duration": 6.0,
+      "bytes": 40133,
+      "sha256": "26aa92e5c98f8bdbc6422f59c2c8d5c8103164d3389f513da7637491d189394e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "actions": 24,
+  "original_bytes": 722018760,
+  "compressed_bytes": 445927354,
+  "bundled_model_bytes": 74209888,
+  "all_original_hashes_preserved": true
+}

@@ -1,0 +1,401 @@
+[
+  {
+    "exercise": "squat",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      5.055975191987618e-07,
+      "thigh_l -> calf_l",
+      4.2
+    ],
+    "support_drift_m": 0.0001013777775299297,
+    "loop_gap_m": 5.640832552536637e-07,
+    "max_relative_bone_length_error": 3.1273951834887015e-06,
+    "minimum_skin_height_m": -2.3381318897008896e-05,
+    "max_support_patch_height_m": 6.172666326165199e-05,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        2.4823262778639332e-08,
+        0.16806532442569733,
+        0.3898006081581116
+      ],
+      "upperarm_l": [
+        4.6193599700927734e-07,
+        0.09328492358326912,
+        0.4404376745223999
+      ],
+      "hand_l": [
+        5.662441253662109e-07,
+        0.09328463673591614,
+        0.4404376149177551
+      ],
+      "foot_l": [
+        3.847479820251465e-05,
+        5.6415796279907227e-05,
+        8.40798020362854e-05
+      ],
+      "foot_r": [
+        3.847479820251465e-05,
+        5.6453049182891846e-05,
+        8.40499997138977e-05
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "pushup",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      4.259230473028556e-07,
+      "calf_l -> foot_l",
+      4.766666666666667
+    ],
+    "support_drift_m": 2.7592548524147256e-05,
+    "loop_gap_m": 4.90017299794362e-07,
+    "max_relative_bone_length_error": 2.3094415827484838e-06,
+    "minimum_skin_height_m": 0.000999651849269867,
+    "max_support_patch_height_m": 0.0014758706092834473,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        2.979314839279823e-08,
+        0.0151180699467659,
+        0.137165367603302
+      ],
+      "upperarm_l": [
+        1.6391277313232422e-07,
+        0.02759939432144165,
+        0.21526391804218292
+      ],
+      "hand_l": [
+        1.8611550331115723e-05,
+        9.000301361083984e-06,
+        2.078525722026825e-05
+      ],
+      "foot_l": [
+        2.682209014892578e-07,
+        3.635883331298828e-06,
+        8.642673492431641e-07
+      ],
+      "foot_r": [
+        2.8312206268310547e-07,
+        3.635883331298828e-06,
+        8.642673492431641e-07
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "lunge",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      4.311047834601829e-07,
+      "thigh_l -> calf_l",
+      1.9
+    ],
+    "support_drift_m": 0.0004299836240177637,
+    "loop_gap_m": 5.406710569567744e-07,
+    "max_relative_bone_length_error": 1.910599935706081e-06,
+    "minimum_skin_height_m": -0.0003664745599962771,
+    "max_support_patch_height_m": 6.066192872822285e-05,
+    "grounded_foot_step_m": 5.356147006454752e-05,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        2.613101957038566e-09,
+        0.034999972209334373,
+        0.3149999678134918
+      ],
+      "upperarm_l": [
+        4.023313522338867e-07,
+        0.06741016171872616,
+        0.31517666578292847
+      ],
+      "hand_l": [
+        4.6193599700927734e-07,
+        0.06741030793637037,
+        0.31517690420150757
+      ],
+      "foot_l": [
+        5.3256750106811523e-05,
+        7.711350917816162e-06,
+        0.00042682886123657227
+      ],
+      "foot_r": [
+        0.00020526349544525146,
+        0.5000177398324013,
+        0.12101317942142487
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "bridge",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      5.094802676820385e-07,
+      "calf_r -> foot_r",
+      0.7
+    ],
+    "support_drift_m": 8.212895675232496e-06,
+    "loop_gap_m": 4.456823722038469e-07,
+    "max_relative_bone_length_error": 1.4550260893919642e-06,
+    "minimum_skin_height_m": 0.0009965896606445312,
+    "max_support_patch_height_m": 0.0019186139106750488,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": 0.0009965896606445312,
+    "upper_back_max_m": 0.0010465383529663086,
+    "landmark_range_m": {
+      "pelvis": [
+        9.883604157323589e-09,
+        0.0649486556649208,
+        0.13161951303482056
+      ],
+      "upperarm_l": [
+        2.384185791015625e-07,
+        0.02392849326133728,
+        0.005189642310142517
+      ],
+      "hand_l": [
+        2.3543834686279297e-06,
+        6.1318278312683105e-06,
+        2.643093466758728e-06
+      ],
+      "foot_l": [
+        2.86102294921875e-06,
+        6.884336471557617e-06,
+        4.582107067108154e-06
+      ],
+      "foot_r": [
+        2.9355287551879883e-06,
+        6.735324859619141e-06,
+        4.8354268074035645e-06
+      ]
+    },
+    "bridge_max_hip_above_line_m": -0.0002002580816287125,
+    "bridge_peak": [
+      {
+        "side": "l",
+        "angle_3d_deg": 159.02408425649696,
+        "angle_sagittal_deg": 179.94405209927558,
+        "hip_above_line_m": -0.00020087668832152739,
+        "hip_line_distance_m": 0.07041148874615318
+      },
+      {
+        "side": "r",
+        "angle_3d_deg": 159.02408425649696,
+        "angle_sagittal_deg": 179.94405209927558,
+        "hip_above_line_m": -0.0002002580816287125,
+        "hip_line_distance_m": 0.07041149341559462
+      }
+    ],
+    "errors": []
+  },
+  {
+    "exercise": "plank",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      3.280001227638941e-07,
+      "pinky_02_l -> pinky_03_l",
+      0.03333333333333333
+    ],
+    "support_drift_m": 1.1733186057227569e-07,
+    "loop_gap_m": 3.9287685786447684e-07,
+    "max_relative_bone_length_error": 2.5462917661034368e-06,
+    "minimum_skin_height_m": 0.0010001328773796558,
+    "max_support_patch_height_m": 0.002416670322418213,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "upperarm_l": [
+        2.9802322387695312e-08,
+        2.9802322387695312e-08,
+        2.9802322387695312e-08
+      ],
+      "hand_l": [
+        7.450580596923828e-08,
+        1.1920928955078125e-07,
+        5.587935447692871e-08
+      ],
+      "foot_l": [
+        4.470348358154297e-08,
+        5.960464477539063e-08,
+        5.960464477539063e-08
+      ],
+      "foot_r": [
+        2.9802322387695312e-08,
+        5.960464477539063e-08,
+        5.960464477539063e-08
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "row",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      3.687849244703228e-07,
+      "calf_l -> foot_l",
+      0.03333333333333333
+    ],
+    "support_drift_m": 1.3943737203041392e-07,
+    "loop_gap_m": 4.835421067353473e-07,
+    "max_relative_bone_length_error": 2.837300874247717e-06,
+    "minimum_skin_height_m": 6.074376869946718e-05,
+    "max_support_patch_height_m": 6.192992441356182e-05,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "upperarm_l": [
+        1.4901161193847656e-07,
+        1.1920928955078125e-07,
+        1.1920928955078125e-07
+      ],
+      "hand_l": [
+        1.545250415802002e-05,
+        0.17164967954158783,
+        0.1328035593032837
+      ],
+      "foot_l": [
+        5.960464477539063e-08,
+        4.0978193283081055e-08,
+        1.1920928955078125e-07
+      ],
+      "foot_r": [
+        4.470348358154297e-08,
+        1.862645149230957e-08,
+        2.9802322387695312e-08
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "jumping_jack",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      8.159321275182607e-07,
+      "lowerarm_r -> hand_r",
+      1.2333333333333334
+    ],
+    "support_drift_m": 0.0,
+    "loop_gap_m": 3.6196711824912534e-07,
+    "max_relative_bone_length_error": 4.292321030385793e-06,
+    "minimum_skin_height_m": -0.0004717776319012046,
+    "max_support_patch_height_m": null,
+    "grounded_foot_step_m": 0.00012420404969508403,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        2.733863246895396e-09,
+        8.940696716308594e-08,
+        0.16216325759887695
+      ],
+      "upperarm_l": [
+        1.9371509552001953e-07,
+        1.601874828338623e-07,
+        0.1621633768081665
+      ],
+      "hand_l": [
+        0.3820508122444153,
+        5.971640348434448e-06,
+        0.8453890681266785
+      ],
+      "foot_l": [
+        0.17012353241443634,
+        8.657574653625488e-06,
+        0.09553197771310806
+      ],
+      "foot_r": [
+        0.17012351751327515,
+        8.635222911834717e-06,
+        0.09553203731775284
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  },
+  {
+    "exercise": "curl",
+    "legacy": false,
+    "samples": 361,
+    "worst_joint_gap_m": [
+      4.16500117164066e-07,
+      "lowerarm_r -> hand_r",
+      3.966666666666667
+    ],
+    "support_drift_m": 2.4900995145840053e-07,
+    "loop_gap_m": 3.375038997204937e-07,
+    "max_relative_bone_length_error": 4.728827565747551e-06,
+    "minimum_skin_height_m": 6.052572280168533e-05,
+    "max_support_patch_height_m": 6.16190955042839e-05,
+    "grounded_foot_step_m": 0.0,
+    "upper_back_min_m": null,
+    "upper_back_max_m": null,
+    "landmark_range_m": {
+      "pelvis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "upperarm_l": [
+        1.1920928955078125e-07,
+        1.043081283569336e-07,
+        0.0
+      ],
+      "hand_l": [
+        5.225837230682373e-05,
+        0.17249328643083572,
+        0.2874218225479126
+      ],
+      "foot_l": [
+        1.341104507446289e-07,
+        2.0489096641540527e-07,
+        5.21540641784668e-08
+      ],
+      "foot_r": [
+        1.341104507446289e-07,
+        2.086162567138672e-07,
+        2.9802322387695312e-08
+      ]
+    },
+    "bridge_max_hip_above_line_m": null,
+    "bridge_peak": null,
+    "errors": []
+  }
+]

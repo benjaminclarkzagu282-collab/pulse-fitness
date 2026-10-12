@@ -1,0 +1,10 @@
+{
+  "asset": "web/review/quality-v2/curl.glb",
+  "sha256": "97a0bbefd3d6a2ab0e271e610fe3e69193aaf49ee09253a918097b9e90cc90c2",
+  "samples": 361,
+  "hand_min_clearance_m": 0.00020315707740090581,
+  "plate_min_clearance_m": 0.0238337256215637,
+  "body_min_clearance_m": 0.02216476709767548,
+  "max_finger_contact_gap_m": 0.000716241635455207,
+  "failures": []
+}

@@ -1,0 +1,29 @@
+{
+  "exercise": "curl",
+  "path": "web/review/quality-v2/curl.glb",
+  "samples": 361,
+  "wrist_axis_error_max_deg": 0.0,
+  "elbow_angle_range_deg": [
+    66.23450955158054,
+    162.91663638524392
+  ],
+  "shoulder_vertical_travel_m": 0.0,
+  "clavicle_rotation_deg": 0.0,
+  "joint_gap_max_m": 3.665201031043781e-07,
+  "bone_length_error": 4.656077049913776e-06,
+  "foot_drift_m": 2.4900995145840053e-07,
+  "skin_min_m": 6.052572280168533e-05,
+  "loop_m": 6.531061828378179e-07,
+  "orientation_step_max_deg": 1.835837881909891,
+  "envelope_min": [
+    -0.3229922354221344,
+    -0.3060978651046753,
+    6.052572280168533e-05
+  ],
+  "envelope_max": [
+    0.3229922652244568,
+    0.12912286818027496,
+    1.4691849946975708
+  ],
+  "errors": []
+}

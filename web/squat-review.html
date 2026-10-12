@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PULSE · 深蹲肌群示意</title>
+  <script type="module" src="assets/packages/model_viewer_plus/assets/model-viewer.min.js"></script>
+  <style>
+    :root{color-scheme:dark;--bg:#101511;--panel:#19201a;--line:#303c31;--muted:#a5b0a3;--lime:#d0f879}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f0f3eb;font:15px/1.6 system-ui,-apple-system,sans-serif}main{max-width:1260px;margin:auto;padding:30px 32px 24px}header{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:15px;font-weight:800;letter-spacing:4px;color:var(--lime)}.badge{border:1px solid #4b573d;border-radius:20px;padding:4px 12px;font-size:12px;color:#d6dfc5}h1{font-size:32px;letter-spacing:1px;line-height:1.2;margin:24px 0 10px}.intro{color:var(--muted);margin:0 0 22px}.views{display:grid;grid-template-columns:1fr 1fr;gap:16px}.view{position:relative;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:radial-gradient(ellipse at 50% 70%,#303a2e,var(--panel) 70%)}.view-title{position:absolute;left:20px;top:16px;z-index:1;pointer-events:none}.view-title b{display:block;font-size:17px}.view-title span{font-size:12px;color:var(--muted)}model-viewer{display:block;width:100%;height:430px;--poster-color:transparent}.view-switch{position:absolute;right:16px;top:18px;z-index:2}.view-switch button{padding:5px 10px;font-size:12px}.loading{position:absolute;inset:0;display:grid;place-content:center;background:var(--panel);color:var(--muted);z-index:3}.loading[hidden]{display:none}.controls{margin-top:16px;padding:20px 24px;border:1px solid var(--line);background:var(--panel);border-radius:18px}.control-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.phase{margin-left:auto;text-align:right}.phase b{color:var(--lime);font-size:16px}.phase span{color:var(--muted);font-size:12px;margin-left:12px;font-variant-numeric:tabular-nums}button,select{font:inherit;color:inherit;border:1px solid #46513f;border-radius:10px;padding:9px 16px;background:#252f24;cursor:pointer}button:hover,button:focus-visible{border-color:var(--lime)}button.primary{background:var(--lime);color:#15200d;border-color:var(--lime);font-weight:700;min-width:88px}button:disabled,select:disabled,input:disabled{opacity:.45;cursor:wait}input[type=range]{width:100%;margin:22px 0 8px;accent-color:var(--lime);cursor:pointer;height:20px}.marks{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.marks button{font-size:13px;padding:8px}.notes{display:grid;grid-template-columns:1.2fr 1fr;gap:26px;margin-top:24px}.notes h2{font-size:15px;margin:0 0 8px}.notes p{margin:0;color:var(--muted);font-size:13px;line-height:1.9}.notes a{color:#d3e5b1;text-underline-offset:4px}.status{color:#dacfa9!important}.footer{border-top:1px solid var(--line);margin-top:24px;padding-top:15px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:12px}.footer a{color:var(--muted)}
+    @media(max-width:640px){main{padding:18px 14px}h1{font-size:26px;margin-top:20px}.intro{font-size:13px}.views{gap:10px;grid-template-columns:1fr 1fr}.view{border-radius:14px}.view-title{left:10px;top:12px}.view-title b{font-size:14px}.view-title span{display:none}.view-switch{right:8px;top:42px}.view-switch button{font-size:11px;padding:4px 7px}model-viewer{height:300px}.controls{padding:16px 14px}.marks{grid-template-columns:1fr 1fr}.notes{grid-template-columns:1fr;gap:18px}.phase{width:100%;text-align:left;margin:4px 0 0}.footer{flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+    @media(max-width:640px){header{gap:8px}.brand{font-size:11px;letter-spacing:2px;white-space:nowrap}.badge{font-size:10px;padding:4px 8px;white-space:nowrap}.muscle-toolbar .mode-switch button{font-size:12px;padding:7px 10px}#quick-play{font-size:12px;padding:9px 11px}}
+    .muscle-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 16px}.mode-switch{display:flex;border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px}.mode-switch button{border:0;background:transparent;padding:7px 14px}.mode-switch button[aria-pressed=true]{background:var(--lime);color:#132009;font-weight:700}.muscle-note{font-size:12px;color:var(--muted);margin-left:auto}.regions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 12px}.regions button{font-size:13px;padding:8px 14px;border-radius:22px}.regions button[aria-pressed=true]{border-color:#ffa65d;background:#352b21}.regions button[data-region=core][aria-pressed=true]{border-color:#56d9b0;background:#193c31}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:7px;background:#ff9c50}.dot.teal{background:#56d9b0}.guidance{border-left:3px solid #ffa65d;padding:11px 16px;background:#1d251c;border-radius:0 12px 12px 0;min-height:83px}.guidance b{font-size:15px}.guidance p{font-size:13px;color:#c3cdbb;margin:3px 0 0}.guidance small{display:block;color:var(--muted);font-size:12px;margin-top:4px}.guidance[hidden],.regions[hidden]{display:none}@media(max-width:640px){.muscle-toolbar{gap:8px}.muscle-note{margin-left:0;width:100%}.regions{gap:6px}.regions button{padding:7px 10px;font-size:12px}.guidance{padding:10px 12px}.guidance p{line-height:1.6}}
+  </style>
+</head>
+<body><main>
+  <header><div class="brand">PULSE / MOTION</div><span class="badge">动作样板 01 · 待复核</span></header>
+  <h1>看见深蹲中的肌群参与。</h1>
+  <p class="intro">徒手深蹲 · 双臂前伸　/　同步多视角，随时暂停、慢放或逐帧观察。</p>
+  <section class="muscle-toolbar" aria-label="肌群显示模式"><div class="mode-switch"><button data-muscles="on" aria-pressed="true" disabled>肌群示意</button><button data-muscles="off" aria-pressed="false" disabled>正常人物</button></div><button id="quick-play" disabled>播放预览</button><span class="muscle-note">颜色表示参与角色 · 非真实受力测量</span></section>
+  <section class="views" aria-label="同步动作预览">
+    <div class="view"><div class="view-title"><b id="view-label">正面</b><span>观察双腿方向与左右配合</span></div><div class="view-switch"><button id="back" disabled>看背面</button></div>
+      <model-viewer id="front" src="review/squat-muscles.glb" alt="深蹲正面三维预览" animation-name="Exercise" camera-orbit="0deg 90deg 3.2m" camera-target="0m .72m 0m" field-of-view="30deg" exposure="1" shadow-intensity="1" shadow-softness=".75" interaction-prompt="none" loading="eager"></model-viewer><div class="loading" id="loading-front">正在载入人物…</div>
+    </div>
+    <div class="view"><div class="view-title"><b>侧面</b><span>观察下蹲深度、躯干与脚掌</span></div>
+      <model-viewer id="side" src="review/squat-muscles.glb" alt="深蹲侧面三维预览" animation-name="Exercise" camera-orbit="90deg 90deg 3.5m" camera-target="0m .72m .12m" field-of-view="30deg" exposure="1" shadow-intensity="1" shadow-softness=".75" interaction-prompt="none" loading="eager"></model-viewer><div class="loading" id="loading-side">正在载入人物…</div>
+    </div>
+  </section>
+  <section class="regions" aria-label="选择肌群"><button data-region="all" aria-pressed="true" disabled>全部区域</button><button data-region="quads" aria-pressed="false" disabled><span class="dot"></span>股四头肌</button><button data-region="glutes" aria-pressed="false" disabled><span class="dot"></span>臀大肌</button><button data-region="core" aria-pressed="false" disabled><span class="dot teal"></span>躯干稳定</button></section>
+  <div class="guidance" id="guidance"><b id="muscle-phase">准备 · 肌群定位</b><p id="muscle-explanation">高亮帮助你定位本次展示的肌群。</p><small id="muscle-detail">本样板展示部分相关肌群；颜色区分参与角色，明暗仅提示动作阶段。</small></div>
+  <section class="controls" aria-label="动作播放控制">
+    <div class="control-head"><button id="play" class="primary" disabled>播放</button><button id="reset" disabled>回到起始</button><label>速度 <select id="speed" disabled><option value="0.25">0.25×</option><option value="0.5" selected>0.5×</option><option value="1">1×</option></select></label><div class="phase"><b id="phase">准备</b><span id="time">0.00 / 6.00 秒</span></div></div>
+    <input type="range" id="seek" aria-label="动作进度（秒）" min="0" max="6" step="0.01" value="0" disabled>
+    <div class="control-head" style="margin-bottom:12px"><button id="previous-frame" disabled>← 上一帧</button><button id="next-frame" disabled>下一帧 →</button><span style="color:var(--muted);font-size:12px">每步 1/30 秒</span></div>
+    <div class="marks"><button data-time="0" disabled>① 起始姿势</button><button data-time="1.75" disabled>② 下蹲中段</button><button data-time="3.25" disabled>③ 底部停顿</button><button data-time="4.5" disabled>④ 起身中段</button></div>
+  </section>
+  <section class="notes">
+    <div><h2>这次重点看什么</h2><p>脚掌是否稳定；膝盖与脚尖的方向是否协调；髋、膝和躯干是否配合；肩、肘、腕是否连续；到底部和起身时是否有突跳或异常拉伸。</p></div>
+    <div><h2>参考与验收状态</h2><p>动作参考：<a href="https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/" target="_blank" rel="noopener">ACE 徒手深蹲</a> · <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/multimedia/squat/vid-20084663" target="_blank" rel="noopener">Mayo Clinic 深蹲</a></p><p class="status">按参考制作的动画样板，尚未经教练复核，当前用于审看动作。节奏和幅度是此人物的展示设置。</p></div>
+  </section>
+  <div class="footer"><span>原有人物 · 单动作重做 · 同步多视角</span><a href="/">返回健身 App</a></div>
+</main>
+<script type="module">
+  import {REGIONS,muscleDisplay} from './review/muscle-guidance.mjs';
+  const viewers=[document.querySelector('#front'),document.querySelector('#side')];
+  const play=document.querySelector('#play'),seek=document.querySelector('#seek'),speed=document.querySelector('#speed');
+  let time=0,playing=false,ready=false,last=null,back=false;
+  let muscles=true,selected='all',materialSets=[],lastEmphasis='';
+  const muscleButtons=[...document.querySelectorAll('[data-muscles]')];
+  const regionButtons=[...document.querySelectorAll('[data-region]')];
+  function applyMuscles(){
+    const state=muscleDisplay(time,muscles,selected);
+    const key=JSON.stringify(state.opacity);
+    if(key!==lastEmphasis){
+      materialSets.forEach(set=>Object.entries(REGIONS).forEach(([name,info])=>{
+        const material=set[name],opacity=state.opacity[name];
+        material.pbrMetallicRoughness.setBaseColorFactor([...info.color,opacity]);
+        material.setEmissiveFactor(info.color.map(v=>v*.12));
+      }));lastEmphasis=key;
+    }
+    document.querySelector('#muscle-phase').textContent=state.phase+' · '+(selected==='all'?'肌群参与':REGIONS[selected].name);
+    document.querySelector('#muscle-explanation').textContent=state.text;
+    document.querySelector('#muscle-detail').textContent=state.detail;
+  }
+  function show(){
+    viewers.forEach(v=>{v.currentTime=time;});seek.value=String(time);
+    document.querySelector('#time').textContent=`${time.toFixed(2)} / 6.00 秒`;
+    document.querySelector('#phase').textContent=time<.5?'准备':time<3?'控制下蹲':time<3.5?'底部停顿':time<5.5?'起身':'回到起始';
+    play.textContent=playing?'暂停':'播放';
+    document.querySelector('#quick-play').textContent=playing?'暂停预览':'播放预览';
+    applyMuscles();
+  }
+  function jump(value){time=value;playing=false;show();}
+  function togglePlayback(){playing=!playing;last=null;show();}
+  play.addEventListener('click',togglePlayback);
+  document.querySelector('#quick-play').addEventListener('click',togglePlayback);
+  seek.addEventListener('input',()=>jump(Number(seek.value)));
+  document.querySelector('#reset').addEventListener('click',()=>jump(0));
+  document.querySelector('#previous-frame').addEventListener('click',()=>jump(Math.max(0,(Math.ceil(time*30-1e-6)-1)/30)));
+  document.querySelector('#next-frame').addEventListener('click',()=>jump(Math.min(6,(Math.floor(time*30+1e-6)+1)/30)));
+  document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>jump(Number(b.dataset.time))));
+  function setBack(value){back=value;viewers[0].cameraOrbit=`${back?180:0}deg 90deg 3.2m`;document.querySelector('#view-label').textContent=back?'背面':'正面';viewers[0].alt=`深蹲${back?'背面':'正面'}三维预览`;document.querySelector('#back').textContent=back?'看正面':'看背面';}
+  document.querySelector('#back').addEventListener('click',()=>setBack(!back));
+  muscleButtons.forEach(button=>button.addEventListener('click',()=>{
+    muscles=button.dataset.muscles==='on';
+    muscleButtons.forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.muscles==='on')===muscles)));
+    document.querySelector('.regions').hidden=!muscles;document.querySelector('#guidance').hidden=!muscles;
+    show();
+  }));
+  regionButtons.forEach(button=>button.addEventListener('click',()=>{
+    selected=button.dataset.region;
+    regionButtons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===selected)));
+    if(selected!=='all')setBack(selected==='glutes');
+    show();
+  }));
+  document.addEventListener('visibilitychange',()=>{last=null;});
+  function tick(now){if(ready&&playing&&!document.hidden&&last!==null){time=(time+Math.min((now-last)/1000,.1)*Number(speed.value))%6;show();}last=now;requestAnimationFrame(tick);}
+  Promise.all(viewers.map(v=>new Promise((resolve,reject)=>{
+    v.addEventListener('load',()=>{v.pause();document.querySelector('#loading-'+v.id).hidden=true;resolve();},{once:true});
+    v.addEventListener('error',()=>reject(new Error('人物载入失败，请刷新页面重试。')),{once:true});
+  }))).then(()=>{
+    materialSets=viewers.map(v=>Object.fromEntries(Object.keys(REGIONS).map(key=>{
+      const material=v.model.materials.find(m=>m.name==='PULSE Muscle '+key);
+      if(!material)throw new Error('肌群层未完整载入，请刷新页面重试。');
+      return [key,material];
+    })));
+    ready=true;document.querySelectorAll('button,select,input').forEach(e=>e.disabled=false);playing=!matchMedia('(prefers-reduced-motion: reduce)').matches;show();requestAnimationFrame(tick);
+  }).catch(error=>{document.querySelectorAll('.loading').forEach(e=>{e.hidden=false;e.textContent=error.message;});});
+</script></body></html>

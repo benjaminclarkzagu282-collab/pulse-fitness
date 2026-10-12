@@ -1,0 +1,16 @@
+{
+  "curl": {
+    "sha256": "97a0bbefd3d6a2ab0e271e610fe3e69193aaf49ee09253a918097b9e90cc90c2",
+    "bytes": 10738308,
+    "motion_skin_morphs_preserved": true,
+    "exported_weight_tracks": 4,
+    "seconds": 6
+  },
+  "shoulder_press": {
+    "sha256": "8b7e37660cd4179957220b181dbe88c3f409fdf2795f78de30da4690c4af9667",
+    "bytes": 10907244,
+    "motion_skin_morphs_preserved": true,
+    "exported_weight_tracks": 4,
+    "seconds": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "web/review/quality-v2/curl.glb",
+  "sha256": "97a0bbefd3d6a2ab0e271e610fe3e69193aaf49ee09253a918097b9e90cc90c2",
+  "samples": 181,
+  "regions": {
+    "Muscle region biceps": {
+      "max_surface_offset_m": 0.00080022991073314,
+      "max_weight_difference": 0
+    },
+    "Muscle region core": {
+      "max_surface_offset_m": 0.0008000643787395323,
+      "max_weight_difference": 0
+    },
+    "Muscle region deltoids": {
+      "max_surface_offset_m": 0.0008001695683855708,
+      "max_weight_difference": 0
+    }
+  }
+}

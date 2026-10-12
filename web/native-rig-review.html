@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PULSE · 原始绑定动作对照</title>
+  <script type="module" src="assets/packages/model_viewer_plus/assets/model-viewer.min.js"></script>
+  <script src="assets/assets/muscles/controller.js"></script>
+  <style>
+    :root{color-scheme:dark;--bg:#111612;--card:#1b231c;--line:#344037;--muted:#a7b4a7;--lime:#d0f879}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#eff4eb;font:14px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1180px;margin:auto;padding:26px 28px}header,footer,.row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.brand{font-size:12px;letter-spacing:3px;font-weight:800;color:var(--lime)}.tag{border:1px solid var(--line);border-radius:30px;padding:4px 12px;font-size:11px;color:var(--muted)}h1{font-size:30px;line-height:1.3;margin:20px 0 7px}.intro{color:var(--muted);margin:0 0 22px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:18px}.stage,.panel{border:1px solid var(--line);border-radius:18px;background:var(--card);overflow:hidden}.stage{background:radial-gradient(ellipse at 50% 75%,#34402e,#1a211c 65%);position:relative}.stage-top{position:absolute;top:16px;left:18px;right:18px;z-index:1;display:flex;justify-content:space-between;pointer-events:none}.stage-top small{color:var(--muted)}#viewer-slot model-viewer{display:block;width:100%;height:490px;--poster-color:transparent}.stage-bottom{display:flex;justify-content:center;gap:7px;padding:10px 12px 15px;flex-wrap:wrap}.panel{padding:19px}.panel h2{margin:0 0 11px;font-size:17px}.panel p{color:var(--muted);margin:8px 0 16px;font-size:13px}.number{font-size:11px;color:var(--lime);letter-spacing:1px}.choice{width:100%;text-align:left;display:flex;justify-content:space-between;align-items:center;margin:7px 0;padding:12px 13px}.choice small{font-size:10px;color:var(--muted)}button,select{font:inherit;color:inherit;border:1px solid #43513f;border-radius:9px;background:#263027;padding:8px 12px;cursor:pointer}button:hover,button:focus-visible,select:focus-visible{border-color:var(--lime)}button[aria-pressed=true]{background:#344528;border-color:var(--lime);color:var(--lime)}button:disabled,select:disabled,input:disabled{opacity:.45;cursor:wait}.primary{background:var(--lime);border-color:var(--lime);color:#17200e;font-weight:700}.divider{height:1px;background:var(--line);margin:20px 0 16px}.toggle{display:flex;gap:6px;flex-wrap:wrap}.toggle button{flex:1;font-size:12px;white-space:nowrap}.notes{font-size:12px;color:var(--muted)}.controls{margin-top:16px;padding:16px 20px;background:var(--card);border:1px solid var(--line);border-radius:16px}.controls .row{justify-content:flex-start}.time{margin-left:auto;color:var(--lime);font-variant-numeric:tabular-nums}input[type=range]{width:100%;accent-color:var(--lime);margin:15px 0 12px}.marks{display:flex;gap:7px;flex-wrap:wrap}.marks button{font-size:12px;flex:1}.status{position:absolute;inset:58px 15px auto;background:#202b20;padding:12px;border-radius:9px;z-index:2}#phase{font-size:12px;color:var(--muted);margin-top:10px}.minor{font-size:12px;color:var(--muted)}.regions{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}.regions button{font-size:11px;padding:5px 8px}.regions[hidden]{display:none}footer{margin-top:22px;padding-top:15px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}a{color:#d0e6b0;text-underline-offset:4px}
+    @media(max-width:760px){main{padding:19px 14px}h1{font-size:25px}.layout{display:flex;flex-direction:column}.panel{order:-1;padding:14px}.panel h2,.panel .number,.panel .divider{display:none}.exercises{display:flex;gap:6px}.choice{justify-content:center;margin:0;padding:10px 4px;font-size:13px}.choice small{display:none}.panel p{margin:10px 0}.panel .toggle{display:inline-flex;width:49%;vertical-align:top}.panel .toggle button{padding:7px 5px;font-size:11px}.panel .notes{margin-top:10px}#viewer-slot model-viewer{height:425px}.controls{padding:14px}.stage-top{left:13px;right:13px}.stage-bottom button{font-size:12px;padding:7px 10px}.intro{font-size:12px;margin-bottom:16px}.marks button{padding:8px 4px}.time{font-size:12px}.tag{font-size:10px}.controls .row{gap:8px}}
+  </style>
+</head>
+<body><main>
+  <header><span class="brand">PULSE / MOTION LAB</span><span class="tag">本次更新 · 原始骨架</span></header>
+  <h1>肩与肘，重新检查。</h1><p class="intro">使用人物原有绑定制作肩推和弯举。切换上一版，慢放观察肩肘轮廓与握姿。</p>
+  <div class="layout">
+    <section class="stage" aria-label="三维动作预览">
+      <div class="stage-top"><b id="view-title">哑铃弯举 · 原绑定样板</b><small id="view-label">正面 / 全身</small></div>
+      <div id="status" class="status" role="status">正在载入校正样板…</div><div id="viewer-slot"></div>
+      <div class="stage-bottom"><button data-view="front" aria-pressed="true" disabled>正面</button><button data-view="side" aria-pressed="false" disabled>侧面</button><button data-view="back" aria-pressed="false" disabled>背面</button><button data-view="grip" aria-pressed="false" disabled>握姿特写</button><button data-view="elbow" aria-pressed="false" disabled>肘部特写</button><button data-view="shoulder" aria-pressed="false" disabled>肩部特写</button><button id="recenter" disabled>重置视角</button></div>
+    </section>
+    <aside class="panel">
+      <span class="number">01 — 02 / REVIEW</span><h2>选择动作</h2>
+      <div class="exercises"><button class="choice" data-exercise="curl" aria-pressed="false" disabled>哑铃弯举<small>肘腕与握持</small></button><button class="choice" data-exercise="shoulder_press" aria-pressed="false" disabled>哑铃肩推<small>肩带与上举</small></button></div>
+      <p id="focus">膝盖与脚尖朝向、腿部扭转、脚底支撑。</p><div class="divider"></div>
+      <div class="toggle"><button data-version="new" aria-pressed="true" disabled>原绑定样板</button><button data-version="old" aria-pressed="false" disabled>上一版</button></div>
+      <div class="toggle" style="margin-top:8px"><button data-muscles="off" aria-pressed="true" disabled>正常人物</button><button data-muscles="on" aria-pressed="false" disabled>肌群示意</button></div>
+      <div id="regions" class="regions" aria-label="肌群选择" hidden></div>
+      <p class="notes" id="scope">深蹲采用较浅的示范幅度，可从侧面检查。</p>
+      <span class="minor">本页先检查肩推和弯举。肌群颜色表示参与示意；动作尚未经教练复核。</span>
+    </aside>
+  </div>
+  <section class="controls" aria-label="播放控制">
+    <div class="row"><button class="primary" id="play" disabled>播放</button><label for="speed">速度</label><select id="speed" disabled><option value=".25">0.25×</option><option value=".5" selected>0.5×</option><option value="1">1×</option></select><button id="previous" disabled>← 上一帧</button><button id="next" disabled>下一帧 →</button><span id="time" class="time">0.00 / 6.00 秒</span></div>
+    <input id="seek" type="range" aria-label="动作进度（秒）" min="0" max="6" step=".01" value="0" disabled>
+    <div class="marks"><button data-time="0" disabled>起始</button><button data-time="1.8" disabled>中段</button><button data-time="3.2" disabled>峰值</button><button data-time="4.5" disabled>回程</button></div>
+    <div id="phase">准备 · 拖动人物可自由旋转，握姿特写会跟随手部。</div>
+  </section>
+  <footer><span>同一人物 · 6 秒循环 · 每步 1/30 秒</span><a href="exercise-review.html">24 动作预览</a><a href="/">返回健身 App</a></footer>
+</main>
+<script>
+  'use strict';
+  const $=id=>document.getElementById(id);
+  const focus={squat:'膝盖与脚尖朝向、腿部扭转、脚底支撑。',curl:'观察肘部弯曲时的厚度、外侧轮廓和肘窝过渡。',shoulder_press:'观察手臂上举时肩峰、三角肌与上臂的连续轮廓。'};
+  const scope={squat:'校正版底部屈膝约 91°，比原版浅；这只是本次示范幅度。',curl:'停在峰值，旋转检查肘部轮廓、手腕位置与五指握持。',shoulder_press:'切换肩部特写，再慢放上举过程；肌群颜色层随皮肤同步变化。'};
+  let catalog,id='shoulder_press',version='new',view='front',muscles=false,selected='all',viewer,controller,time=3.2,playing=false,ready=false,last=null,loadToken=0,abort;
+  const data=()=>{const entry=catalog.exercises[id];return {...entry,phases:version==='old'?entry.legacyPhases:entry.phases};};
+  function setPressed(attribute,value){document.querySelectorAll(`[data-${attribute}]`).forEach(b=>b.setAttribute('aria-pressed',String(b.dataset[attribute]===value)));}
+  const closeup=()=>['grip','elbow','shoulder'].includes(view);
+  function jointTarget(){const points=data().cameraTargets[version][view==='grip'?'hand':view],f=Math.min(180,Math.max(0,time*30)),a=Math.floor(f),b=Math.min(180,a+1);return points[a].map((v,i)=>v+(points[b][i]-v)*(f-a));}
+  function target(){return closeup()?jointTarget():[0,version==='new'?(id==='shoulder_press'?1.12:.98):(id==='shoulder_press'?.89:.76),0];}
+  function updateTarget(){if(viewer)viewer.cameraTarget=target().map(v=>`${v}m`).join(' ');}
+  function camera(){
+    if(!viewer?.clientWidth)return;
+    const aspect=viewer.clientWidth/viewer.clientHeight;
+    // Full-motion bounds include the equipment, with head/foot margins. Explicit
+    // max orbit avoids model-viewer's initial-pose clamp at narrow widths.
+    const height=closeup()?({grip:.22,elbow:.42,shoulder:.52})[view]:version==='new'?(id==='shoulder_press'?2.5:2.1):(id==='shoulder_press'?1.98:1.7);
+    const width=closeup()?({grip:.32,elbow:.48,shoulder:.56})[view]:version==='new'?(id==='shoulder_press'?1.5:1.2):(id==='shoulder_press'?1.2:.95);
+    const radius=Math.max(height,width/Math.max(aspect,.1))/(2*Math.tan(Math.PI/12))+(closeup()?.05:.22);
+    const theta={front:0,side:90,back:180,grip:30,elbow:35,shoulder:20}[view];
+    updateTarget();viewer.cameraOrbit=`${theta}deg ${view==='grip'?75:90}deg ${radius}m`;
+  }
+  const resize=new ResizeObserver(camera);
+  function show(){
+    if(viewer){viewer.currentTime=time;if(closeup())updateTarget();}
+    $('seek').value=String(time);$('time').textContent=`${time.toFixed(2)} / 6.00 秒`;$('play').textContent=playing?'暂停':'播放';
+    if(catalog){const phase=data().phases.find(p=>time>=p.start&&time<p.end)||data().phases.at(-1);$('phase').textContent=`${phase.label} · ${phase.text}`;}
+  }
+  function jump(t){time=Math.max(0,Math.min(6,t));playing=false;last=null;show();}
+  function setView(v){view=v;setPressed('view',v);$('view-label').textContent=({front:'正面 / 全身',side:'侧面 / 全身',back:'背面 / 全身',grip:'左手 / 握姿特写',elbow:'左肘 / 关节特写',shoulder:'左肩 / 关节特写'})[view];camera();}
+  function paintRegions(){
+    $('regions').hidden=!muscles;setPressed('muscles',muscles?'on':'off');setPressed('region',selected);
+    const orbit=viewer?.getCameraOrbit();
+    controller?.update({muscles,selectedRegion:selected,...(orbit?{orbit:`${orbit.theta}rad ${orbit.phi}rad ${orbit.radius}m`}:{})});
+  }
+  function controls(){
+    const labels=id==='squat'?['上一版深蹲','原动作对照']:['原绑定样板','上一版'];document.querySelector('[data-version="new"]').textContent=labels[0];document.querySelector('[data-version="old"]').textContent=labels[1];$('view-title').textContent=data().name+' · '+labels[version==='new'?0:1];$('focus').textContent=focus[id];$('scope').textContent=scope[id];
+    setPressed('exercise',id);setPressed('version',version);
+    $('regions').replaceChildren();
+    for(const r of [{id:'all',name:'全部'},...data().regions]){const b=document.createElement('button');b.textContent=r.name;b.dataset.region=r.id;b.addEventListener('click',()=>{selected=r.id;paintRegions();});$('regions').append(b);}
+  }
+  async function load(){
+    const token=++loadToken;abort?.abort();abort=new AbortController();const signal=abort.signal;
+    controller?.dispose();controller=null;resize.disconnect();ready=false;playing=false;last=null;
+    controls();$('status').hidden=false;$('status').textContent='正在载入'+data().name+'…';
+    document.querySelectorAll('button,select,input').forEach(b=>b.disabled=true);
+    document.querySelectorAll('[data-exercise],[data-version]').forEach(b=>b.disabled=false);
+    viewer=document.createElement('model-viewer');
+    for(const [k,v] of Object.entries({'alt':data().name+'三维校正预览','camera-controls':'','disable-pan':'','touch-action':'pan-y','animation-name':'Exercise','field-of-view':'30deg','min-camera-orbit':'auto 10deg .25m','max-camera-orbit':'auto 170deg 20m','interpolation-decay':'0','exposure':'1','shadow-intensity':'.8','shadow-softness':'.8','interaction-prompt':'none','loading':'eager'}))viewer.setAttribute(k,v);
+    const currentViewer=viewer;
+    viewer.addEventListener('camera-change',event=>{if(event.detail?.source==='user-interaction'){setPressed('view',closeup()?view:'free');$('view-label').textContent=closeup()?'自由旋转 / 跟随特写':'自由旋转 / 全身';}},{signal});
+    const loaded=new Promise((resolve,reject)=>{
+      const timer=setTimeout(()=>reject(new Error('载入超时，请重新选择动作。')),30000);
+      const done=fn=>()=>{clearTimeout(timer);fn();};
+      currentViewer.addEventListener('load',done(resolve),{once:true,signal});currentViewer.addEventListener('error',done(()=>reject(new Error('模型载入失败，请重新选择动作。'))),{once:true,signal});signal.addEventListener('abort',done(()=>reject(new DOMException('Cancelled','AbortError'))),{once:true});
+    });
+    viewer.src=id==='squat'?(version==='new'?`review/quality/squat.glb`:`assets/assets/models/athlete_squat.glb`):`review/${version==='new'?'native':'quality-v2'}/${id}.glb`;
+    $('viewer-slot').replaceChildren(viewer);resize.observe(viewer);setView(view);show();
+    try{await loaded;if(token!==loadToken)return;viewer.pause();controller=PulseMuscles.create(viewer,{catalog:{...catalog,exercises:{...catalog.exercises,[id]:data()}},exerciseId:id,muscles,selectedRegion:selected,playing:false,speed:1});ready=true;document.querySelectorAll('button,select,input').forEach(b=>b.disabled=false);document.querySelectorAll('[data-view="grip"],[data-view="elbow"],[data-view="shoulder"]').forEach(b=>b.disabled=id==='squat');$('status').hidden=true;paintRegions();camera();show();}
+    catch(e){if(token===loadToken&&e.name!=='AbortError')$('status').textContent=e.message;}
+  }
+  document.querySelectorAll('[data-exercise]').forEach(b=>b.addEventListener('click',()=>{id=b.dataset.exercise;time=0;selected='all';if(id==='squat'&&closeup())view='front';else if(['elbow','shoulder'].includes(view))view=id==='curl'?'elbow':'shoulder';load();}));
+  document.querySelectorAll('[data-version]').forEach(b=>b.addEventListener('click',()=>{version=b.dataset.version;load();}));
+  document.querySelectorAll('[data-muscles]').forEach(b=>b.addEventListener('click',()=>{muscles=b.dataset.muscles==='on';paintRegions();}));
+  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
+  document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>jump(Number(b.dataset.time))));
+  $('recenter').addEventListener('click',()=>setView(view));$('play').addEventListener('click',()=>{playing=!playing;last=null;show();});
+  $('seek').addEventListener('input',()=>jump(Number($('seek').value)));$('previous').addEventListener('click',()=>jump((Math.ceil(time*30-1e-6)-1)/30));$('next').addEventListener('click',()=>jump((Math.floor(time*30+1e-6)+1)/30));
+  document.addEventListener('visibilitychange',()=>last=null);
+  function tick(now){if(ready&&playing&&!document.hidden&&last!==null){time=(time+Math.min((now-last)/1000,.1)*Number($('speed').value))%6;show();}last=now;requestAnimationFrame(tick);}
+  fetch('review/native/catalog.json').then(r=>{if(!r.ok)throw new Error('动作说明载入失败。');return r.json();}).then(async c=>{catalog=c;const requested=new URLSearchParams(location.search).get('exercise');if(c.exercises[requested]){id=requested;view=id==='squat'?'front':id==='curl'?'elbow':'shoulder';}await customElements.whenDefined('model-viewer');await load();requestAnimationFrame(tick);}).catch(e=>$('status').textContent=e.message);
+</script></body></html>

@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "exercise_count": 24,
+  "native_bones": 81,
+  "all_original_skin_influences_preserved": true,
+  "approved_samples_unchanged": [
+    "shoulder_press",
+    "curl"
+  ],
+  "max_geometry_error_mm": 0.40936487494036555,
+  "native_solver_sha256": "ef6739f4f61b54f747441a5a347d571e2d2558bbf641b6c3274f2421ccfc9d16",
+  "build_report_sha256": "802e84a5f0771e177b9da509cc78fe4d9760ef1884c15609100169a556c10e1f",
+  "verification_sha256": "6fe8ea4838b7cc7423701dc83b7bf23325febd30afdbe96e6dddb5d8d60c9574",
+  "python_tests": 34,
+  "flutter_tests": 11,
+  "controller_and_catalog_tests": 17,
+  "dart_analysis": "no issues",
+  "flutter_web_build": "passed",
+  "browser_checks": [
+    "24 exercise choices in app and review",
+    "squat",
+    "jumping_jack",
+    "dead_bug",
+    "single_arm_row",
+    "shoulder_press",
+    "step_jack",
+    "pause and phase seek",
+    "0.25x speed",
+    "normal/muscle mode",
+    "individual region selection",
+    "side view",
+    "390x844 viewport layout"
+  ],
+  "browser_console_errors": [],
+  "camera_check": "24 full native envelopes pass at four aspect ratios and 16 directions",
+  "coach_review_completed": false,
+  "transfer_port_8896_closed": true,
+  "preview_url": "http://127.0.0.1:8879/exercise-review.html",
+  "app_url": "http://127.0.0.1:8879/",
+  "original_pre_migration_backup_dir": "/Users/jiyibo/Desktop/建模游戏/pulse_fitness/.build/original-rig/native-app-backups/20260930T073904.298082Z"
+}

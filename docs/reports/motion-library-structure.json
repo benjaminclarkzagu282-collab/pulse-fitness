@@ -1,0 +1,688 @@
+{
+  "bridge": {
+    "bytes": 7312452,
+    "sha256": "bb4f7aa313367c99c8b4626010eaf8b2d2aad90e62bd31cc512e343dc5e43d87",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 15,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 251,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "curl": {
+    "bytes": 7286516,
+    "sha256": "14852005badc4959981a4efbde688f08f667d37f49d7ebef3f4921cc121e6dc9",
+    "meshes": 16,
+    "joints": 53,
+    "vertices": 49539,
+    "triangles": 61779,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 4,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 240,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "jumping_jack": {
+    "bytes": 7259784,
+    "sha256": "ace5af6b225fc551d7299e55f6ba6d89d096f3d53723f370eee751d9c6187fa8",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 13,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 228,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "lunge": {
+    "bytes": 7268944,
+    "sha256": "2c96ba26d99f0c6836317936317987a158fb599a18d5d80ac883db705da8e93c",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 14,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 232,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "pushup": {
+    "bytes": 7307872,
+    "sha256": "dc874f2feb58b9c51870c6e7f71c7e67a1611cfc521f4ddcf7295e4b3b046468",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 10,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 249,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "row": {
+    "bytes": 7284224,
+    "sha256": "792d6492aef313f3f86eff0433388e21c244b264b1d2dbb15249b996bec9d7fb",
+    "meshes": 16,
+    "joints": 53,
+    "vertices": 49539,
+    "triangles": 61779,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 6,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 239,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  },
+  "squat": {
+    "bytes": 7259784,
+    "sha256": "05eed9b89e4e57017bf78eb2a2de076b5f072ff459b34c3454c0722b140e56ad",
+    "meshes": 14,
+    "joints": 53,
+    "vertices": 49107,
+    "triangles": 61515,
+    "clip": "Exercise",
+    "seconds": 6,
+    "channels": 159,
+    "moving_channels": 12,
+    "closed_loop": true,
+    "normalized_weights": true,
+    "finite_accessors": 228,
+    "images": [
+      {
+        "name": "Boxers_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 447699,
+        "mime": "image/png"
+      },
+      {
+        "name": "Boxers_color",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 96432,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Eyeball_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39055,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "EyeIrisBlue_unscattered",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 39115,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Mouth_diffuse",
+        "size": [
+          512,
+          512
+        ],
+        "bytes": 59154,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Body_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 969591,
+        "mime": "image/png"
+      },
+      {
+        "name": "Body_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 489483,
+        "mime": "image/jpeg"
+      },
+      {
+        "name": "Head_normal",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 1084682,
+        "mime": "image/png"
+      },
+      {
+        "name": "Head_unscattered",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 707415,
+        "mime": "image/jpeg"
+      }
+    ]
+  }
+}

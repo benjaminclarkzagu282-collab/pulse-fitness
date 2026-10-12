@@ -1,0 +1,22 @@
+{
+  "source": "squat-v2.glb",
+  "sha256": "b86a2b8eac1d7d3b084d0e22ccd10b772f7981bbcc1d0eb4e555770e402fe047",
+  "motion_unchanged": true,
+  "original_mesh_attributes_unchanged": true,
+  "regions": {
+    "quads": {
+      "vertices": 406,
+      "triangles": 684
+    },
+    "glutes": {
+      "vertices": 546,
+      "triangles": 956
+    },
+    "core": {
+      "vertices": 712,
+      "triangles": 1177
+    }
+  },
+  "total_added_triangles": 2817,
+  "interpretation": "Preset surface regions, not force or EMG measurements."
+}

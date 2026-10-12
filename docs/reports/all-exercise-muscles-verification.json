@@ -1,0 +1,490 @@
+{
+  "squat": {
+    "sha256": "4f3f5f9f0813cdb8665c7dff5b530e49f30ffdfcc37eef994e067e779ec54e87",
+    "bytes": 7367644,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "pushup": {
+    "sha256": "20b1f4595f543bbd1d673bf66006dcaf36a2cd201fe6c3910d3519eb1d6b2983",
+    "bytes": 7438576,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "chest": {
+        "vertices": 469,
+        "triangles": 816
+      },
+      "triceps": {
+        "vertices": 390,
+        "triangles": 656
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "lunge": {
+    "sha256": "02be533433fa448f15c5f50c8a35c52e5890e3bd4eb8a10795827e957f89fed1",
+    "bytes": 7376804,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "bridge": {
+    "sha256": "fbb2fee9ebf24eca916cd1367894fe77d31652d77237889de6a440f08f4d71d3",
+    "bytes": 7411208,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "hamstrings": {
+        "vertices": 262,
+        "triangles": 412
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "plank": {
+    "sha256": "24c8274b77e3a0ac3381a28243353c2003fb82ceaa50625f98284b17caf9e0e3",
+    "bytes": 7406324,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      }
+    }
+  },
+  "row": {
+    "sha256": "dc4e80b6e24faf3e12840e2c15c822bd690bf5b33ec135f18fc2fe18d9212a2c",
+    "bytes": 7388480,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "lats": {
+        "vertices": 376,
+        "triangles": 628
+      },
+      "upper_back": {
+        "vertices": 280,
+        "triangles": 452
+      },
+      "biceps": {
+        "vertices": 226,
+        "triangles": 352
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "jumping_jack": {
+    "sha256": "28aef784f2496eff40586f2728287f70ed31d9b031981cfd263d8e7ca9749512",
+    "bytes": 7375064,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "calves": {
+        "vertices": 210,
+        "triangles": 324
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "curl": {
+    "sha256": "989103cb2fb7a56d4420cbe909feef071ff51a1e35334fbf26f669b795053add",
+    "bytes": 7375992,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "biceps": {
+        "vertices": 226,
+        "triangles": 352
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "kneeling_pushup": {
+    "sha256": "cb775934ccd86d6076b89d6a6d518cf1fac640ffe013c576842d6d3de96e7e89",
+    "bytes": 7440864,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "chest": {
+        "vertices": 469,
+        "triangles": 816
+      },
+      "triceps": {
+        "vertices": 390,
+        "triangles": 656
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "incline_pushup": {
+    "sha256": "293b16991d4388e658526cec594aa203e4bb3e960cc73ed9d8bc49b98372d654",
+    "bytes": 7446804,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "chest": {
+        "vertices": 469,
+        "triangles": 816
+      },
+      "triceps": {
+        "vertices": 390,
+        "triangles": 656
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "floor_press": {
+    "sha256": "3b228de233c959b17b7430a9c23036e32f20090a92a7c9bb0b236d2e37e6e0bf",
+    "bytes": 7469736,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "chest": {
+        "vertices": 469,
+        "triangles": 816
+      },
+      "triceps": {
+        "vertices": 390,
+        "triangles": 656
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "shoulder_press": {
+    "sha256": "f034363c53884fe44069552ae0d82deb8e172b08afb06260baaaea79bc8c9a54",
+    "bytes": 7386356,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "triceps": {
+        "vertices": 390,
+        "triangles": 656
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "lateral_raise": {
+    "sha256": "1d197730b5ff5defd5be5a74848d80355b0d64d1e151c63996a8ef1e0ba01a2a",
+    "bytes": 7379424,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "upper_back": {
+        "vertices": 280,
+        "triangles": 452
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "single_arm_row": {
+    "sha256": "85b0b3f5f6bbcf4682a4f9c9c91720457000b06e6bb2b91c0ca0311c1555d32c",
+    "bytes": 7397548,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "lats": {
+        "vertices": 188,
+        "triangles": 314
+      },
+      "upper_back": {
+        "vertices": 140,
+        "triangles": 226
+      },
+      "biceps": {
+        "vertices": 113,
+        "triangles": 176
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "reverse_fly": {
+    "sha256": "ad93ffcc5634111440eef121267745e801d35c5aca83dae8cd54a6dd5d008827",
+    "bytes": 7379424,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "upper_back": {
+        "vertices": 280,
+        "triangles": 452
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "romanian_deadlift": {
+    "sha256": "aa80c48e10afac1a30435439fea60e41bafa9b74c7b010d732aa5a8bbcda3f08",
+    "bytes": 7385120,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "hamstrings": {
+        "vertices": 262,
+        "triangles": 412
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "sumo_squat": {
+    "sha256": "9c66b89e45a4d1d9d18bc828a3fa8f9f9a5a9b0dd7d058aa86dec60496e33dd5",
+    "bytes": 7376804,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "split_squat": {
+    "sha256": "793c387e4cd21616bbf37a4f3bb58231d44bb7270d908981b927606d4d651bc0",
+    "bytes": 7376804,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "lateral_lunge": {
+    "sha256": "bd940398ace0fb95eb89c1f41606a8b17539abe5e38c9dc9270da43b7972cb6f",
+    "bytes": 7418024,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "calf_raise": {
+    "sha256": "9dab1496acc75423884a351ec287d29b2c6ca234da1859b232d099cc0ee76f39",
+    "bytes": 7346376,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "calves": {
+        "vertices": 210,
+        "triangles": 324
+      },
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  },
+  "dead_bug": {
+    "sha256": "f8501a10b5f9dc8f5bf2f4318dfe8dea1de9339a38108a010da4c4db777e5d63",
+    "bytes": 7413436,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      }
+    }
+  },
+  "bird_dog": {
+    "sha256": "8c2460c0aece1dbe5d654a411b95dc8a94fa56360023c647c842ef2b57d8074a",
+    "bytes": 7420064,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      }
+    }
+  },
+  "side_plank": {
+    "sha256": "eed1728b1aa98e505d7c3463474abb582b0eb20aa472da1a0f31990954bff056",
+    "bytes": 7417776,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      }
+    }
+  },
+  "step_jack": {
+    "sha256": "d2b5d08cb3e1fa03a909c768ff0a4eaa3af28b1035befac35497e1fca2d4ec6a",
+    "bytes": 7437548,
+    "motion_and_original_skin_unchanged": true,
+    "regions": {
+      "deltoids": {
+        "vertices": 438,
+        "triangles": 746
+      },
+      "glutes": {
+        "vertices": 546,
+        "triangles": 956
+      },
+      "quads": {
+        "vertices": 406,
+        "triangles": 684
+      },
+      "core": {
+        "vertices": 712,
+        "triangles": 1177
+      }
+    }
+  }
+}

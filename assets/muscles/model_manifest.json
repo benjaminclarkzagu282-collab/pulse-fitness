@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "compression": "gzip-lossless",
+  "models": {
+    "bird_dog": {
+      "bytes": 51215808,
+      "compressedBytes": 30195064,
+      "sha256": "8f08f612b51ed2f5c75ff62771a7ef1055cb003267b2b73022626590e7b92b01",
+      "compressedSha256": "2580ee4b82891e9820089c61935e30a148906f30b5c55e15409a7707d2e1bb97",
+      "bundled": false
+    },
+    "bridge": {
+      "bytes": 26234060,
+      "compressedBytes": 17008172,
+      "sha256": "65804058cb5819fb7ff09c588c3091ad28023d33daa92821fe03c8bda8c82fbd",
+      "compressedSha256": "e593b8329824788c2b4f95e6896a731aaf3e33e8fec1c25ce9e831b754325095",
+      "bundled": false
+    },
+    "calf_raise": {
+      "bytes": 16232472,
+      "compressedBytes": 11081686,
+      "sha256": "1918ca328d93a55ce692b06c51969ffd1924700e60626aee6cbad077056fc995",
+      "compressedSha256": "5ac7b8fe6b704e47856f612b14f184846c0239b6ce3cd8255e67a2ff2b24a9f8",
+      "bundled": false
+    },
+    "curl": {
+      "bytes": 19973016,
+      "compressedBytes": 12790129,
+      "sha256": "03fed321571c16b0c18f5a9196ab0c2f702299d2cab20ad36a87b47495600395",
+      "compressedSha256": "a8645b505048068098a855ae424fc82a55ed6a97fcd85ceb0f7ea3b1ad0d545f",
+      "bundled": false
+    },
+    "dead_bug": {
+      "bytes": 77842200,
+      "compressedBytes": 44761216,
+      "sha256": "8bbb5fdce629109236ecf2c1a44d0b41a790e24bb624b59774865992236f135b",
+      "compressedSha256": "83770390e9a674e2d402673f7437b2bebb3d06b6fed27af2ad82e1856d1f6cac",
+      "bundled": false
+    },
+    "floor_press": {
+      "bytes": 23351572,
+      "compressedBytes": 14967777,
+      "sha256": "a30949f739bb549a2f9ceedb2d7a9fc0452946291069f4d3b8e5ef8f34a6fb70",
+      "compressedSha256": "aacb75cce35595b980e36a56875c88929072944bb89a4555723e4cc7269b69e0",
+      "bundled": false
+    },
+    "incline_pushup": {
+      "bytes": 23678244,
+      "compressedBytes": 14495954,
+      "sha256": "fd895cdded3d304a96430935b213983881df5021a5a3008c0163fab6933cc107",
+      "compressedSha256": "4dad3050468b6c5ea41aa9084c7fdcfb2eac71f150c732dfd0c83aacf2f4488e",
+      "bundled": false
+    },
+    "jumping_jack": {
+      "bytes": 42307260,
+      "compressedBytes": 26217944,
+      "sha256": "1771c616165326bb356e46376d100a3bb5672a0fb73b5dc9f2b1e72d00dd2ad2",
+      "compressedSha256": "a1baf9e62808ef105af41237871a2bc3993ebce5ea6ea5db57864defe6d16134",
+      "bundled": false
+    },
+    "kneeling_pushup": {
+      "bytes": 26103904,
+      "compressedBytes": 16186515,
+      "sha256": "92952fffe8b1baa929b4629aeed6db7c4e81ea52a108ee354e0ac7dabd323cce",
+      "compressedSha256": "7b2e873db56b7ba4adcebbe2ec63de462bf57c35b62cc59dab6cf376b1ab5680",
+      "bundled": false
+    },
+    "lateral_lunge": {
+      "bytes": 39908080,
+      "compressedBytes": 24479224,
+      "sha256": "497d91654257536671221c5b215d6f9c5ffa9fe0e3011f5a489ae725bc0d63f4",
+      "compressedSha256": "8b969425a914a62e8c19811989d01463ec942dc7458022495db3020d891b13b7",
+      "bundled": false
+    },
+    "lateral_raise": {
+      "bytes": 20460168,
+      "compressedBytes": 12466919,
+      "sha256": "b3c40569ed415ca26b81fccafca37bd74ede5c206ba2a1ef512e28d50577c0dc",
+      "compressedSha256": "db630015ce17634832e6934ae2358782e4d14a0e833df3cf9c1f15f7c4948dbd",
+      "bundled": false
+    },
+    "lunge": {
+      "bytes": 44932052,
+      "compressedBytes": 27497545,
+      "sha256": "8f845cf6bf258fe0fe49a988d8ff281f2a6e7b03053ae44c9a0cc5c1f643956d",
+      "compressedSha256": "0724d09a60f158f5d918ecba4d1ea59c0cd5e22abac4cd32e1464e5444e24dec",
+      "bundled": false
+    },
+    "plank": {
+      "bytes": 6441876,
+      "compressedBytes": 5373672,
+      "sha256": "e5226a6f5e5b1d05b3cef77206373fae3e1fad665e0ac7b48adfe917285eb701",
+      "compressedSha256": "61e72ed756bb2c7a90e94fd3110c966e19c60fa861bc4d8c2bf9a230cb7c57a7",
+      "bundled": false
+    },
+    "pushup": {
+      "bytes": 26249940,
+      "compressedBytes": 15894492,
+      "sha256": "f06c0451ca368f28dcad8e0d3b4974bba2bf17bcf01aba5b30b744ccaa93858d",
+      "compressedSha256": "a4621a15c49926e679efa7a29302d0f75fa766d7789e183d80592b199f7b9c1c",
+      "bundled": true
+    },
+    "reverse_fly": {
+      "bytes": 17905864,
+      "compressedBytes": 10804879,
+      "sha256": "3f2ec0f0e9c0c9bd78b6b272e1f81edf47653880d458387a528e814e20091a1c",
+      "compressedSha256": "6c6866e00c7966205ad5f1c6bc88426adaea01b3dfe56835c96d51ed8c18b590",
+      "bundled": false
+    },
+    "romanian_deadlift": {
+      "bytes": 40327456,
+      "compressedBytes": 24885693,
+      "sha256": "d815426d4c316eada3f7a35c0d47850a700595513fd50183510e86cf15877b5d",
+      "compressedSha256": "e771c183a06f869210a4e36085c28de1ddb817c58f538a87d5c1ed5521b90856",
+      "bundled": false
+    },
+    "row": {
+      "bytes": 15226296,
+      "compressedBytes": 9893780,
+      "sha256": "51d022a5a60225412bedb360bde28087b5da20797a07b4484f2466376652935e",
+      "compressedSha256": "f0c508a1914c148d914cf018a8d553523a252d72ca1ec25aaabe835937b996e2",
+      "bundled": false
+    },
+    "shoulder_press": {
+      "bytes": 21466712,
+      "compressedBytes": 14539767,
+      "sha256": "a9ce163557c48b8291698ae647ce2e984bae445e067efdff83465aa03882c417",
+      "compressedSha256": "5f2cb1dfbda1dd1740a06fb33ab299f03056936db63e783405a9236a5ab67a67",
+      "bundled": false
+    },
+    "side_plank": {
+      "bytes": 6436080,
+      "compressedBytes": 5385088,
+      "sha256": "fb3eb5ad90d6a80734e75242c8e01d2ede6d97d284daea790b0a244a1e805cdd",
+      "compressedSha256": "4eff7ad6d65cd70f275412e6fd4fcf5c5a9b3324b436fb8996f44e399a74d167",
+      "bundled": false
+    },
+    "single_arm_row": {
+      "bytes": 17920468,
+      "compressedBytes": 11247994,
+      "sha256": "6bf1cadcf684ef91eda1e74b5791fd75ef3941f01e681971e4c9172bf433fe99",
+      "compressedSha256": "733dddb63e950755589d08a65524f0858ab080b3caed2034b8ff2c024c94f6a9",
+      "bundled": false
+    },
+    "split_squat": {
+      "bytes": 32261884,
+      "compressedBytes": 19162534,
+      "sha256": "75dc95f76e5e319f41be3c3d295607935f09e702f228240e4fefd51703384cdf",
+      "compressedSha256": "e55dd53a5496f694129244453812af90e25f6da131244218da88f9a7f8682381",
+      "bundled": false
+    },
+    "squat": {
+      "bytes": 47959948,
+      "compressedBytes": 29045167,
+      "sha256": "af0218c597da4463f6bb9c1880f4244f6f4b5b4425fef91e4e96b974aa737ab6",
+      "compressedSha256": "a578b0135b6aa5e548d3d56199f29d09080292cdbe7c1cafa8b5042ca58653fc",
+      "bundled": true
+    },
+    "step_jack": {
+      "bytes": 48417604,
+      "compressedBytes": 29483744,
+      "sha256": "00fcf95562d3831ed922ba34368ff57a9006c14f133df654c0e84a9d3529390e",
+      "compressedSha256": "e1acc51d57ce64bb966ecd424b9f90600bc62509fdb98dee33fb1d262641e7a0",
+      "bundled": false
+    },
+    "sumo_squat": {
+      "bytes": 29165796,
+      "compressedBytes": 18062399,
+      "sha256": "7e3d247fe88edb70e10427333b76834fa90d1ddf8ffb3b82921f8fec7f2124b7",
+      "compressedSha256": "4a408782708f3282aa349f4309728ee716a9a95aea3690c7bdb1c624cd0cacb1",
+      "bundled": false
+    }
+  }
+}

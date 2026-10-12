@@ -1,0 +1,17 @@
+{
+  "character": "PULSE athletic adult male, stylized real-proportion",
+  "generator": {"name":"MPFB 2", "repository":"https://github.com/makehumancommunity/mpfb2", "revision":"3edf9df0551765be43563d047888cf7877eb89b4", "code_license":"GPL-3.0", "asset_license":"CC0-1.0", "license_explanation":"https://github.com/makehumancommunity/mpfb2/blob/3edf9df0551765be43563d047888cf7877eb89b4/LICENSE.md"},
+  "assets": [
+    {"name":"MakeHuman base human, macro targets, game_engine skeleton and weights", "author":"MakeHuman Community", "license":"CC0-1.0", "source":"https://github.com/makehumancommunity/mpfb2"},
+    {"name":"young_asian_male skin; low-poly eyes with brown iris; eyebrow001; eyelashes01; short02 hair; shoes05", "author":"MakeHuman system assets contributors", "license":"CC0-1.0", "source":"https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html", "download":"https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip", "sha256":"b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"},
+    {"name":"toigo_basic_tucked_t-shirt", "author":"Margaret Toigo", "license":"CC0-1.0", "source":"https://static.makehumancommunity.org/assets/assetpacks/shirts01.html", "download":"https://files.makehumancommunity.org/asset_packs/shirts01/shirts01_cc0.zip", "sha256":"a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3", "modifications":"Graphite material, lower hem extended and expanded to cover waist during motion"},
+    {"name":"cortu_cargo_pants", "author":"Cortu Johnstone", "license":"CC0-1.0", "source":"https://static.makehumancommunity.org/assets/assetpacks/pants01.html", "download":"https://files.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip", "sha256":"e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9", "modifications":"Existing trousers cropped above knee and recolored charcoal to form training shorts"}
+  ],
+  "animation": "Original procedural joint motion driven through actual MakeHuman skeleton and authored skin weights; not mocap",
+  "props": "Original simple dumbbell geometry, bound to hand bones",
+  "authoring_blend": ".build/character/athlete-source.blend",
+  "preview_directory": ".build/character/previews",
+  "bundled_outputs": "assets/models/athlete_<id>.glb and assets/images/athlete_<id>.png",
+  "orientation": "Blender Z-up, character faces -Y; glTF Y-up export faces +Z, model-viewer front0deg and side90deg",
+  "retrieved": "2026-09-27"
+}

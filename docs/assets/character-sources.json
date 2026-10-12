@@ -1,0 +1,41 @@
+{
+  "character": "PULSE realistic athletic adult male, user-supplied source",
+  "source_pack": "3D model Realistic Rigged Man Vray & MentalRay",
+  "provided_by": "User, local directory characters/00_已解压",
+  "license": {
+    "status": "not_supplied",
+    "note": "No license document was present in the user-provided package. This character mesh and its textures are not claimed as CC0. Local integration does not establish commercial redistribution rights."
+  },
+  "input_sha256": {
+    "男人物.blend": "93d0af9f5a7d06b15bcc9ce81796068cdfd4a6bb09944c730dbdeecec614c0ed",
+    "Man.FBX": "58b7372e428e7df77e0b5c2808e95d1249e1afc762eccddb687698932be758fb",
+    "Body_unscattered.png": "ef8767d384c6b8223ec62b310dcc1d5085f43088721de1af5eed6c932532dfee",
+    "Head_unscattered.png": "76342059cae88173200187acf8617c6acb632e1fada066d5d20d0b791d1053b9",
+    "Body_normal.png": "272faf305b440c4c1837411b578f07021aada6682b6a326d2b9d81208c132e99",
+    "Head_normal.png": "941a31c6ba3fdfe242b427f921dc566360cd829e2002792048bab1f1bc4b1211",
+    "Boxers_color.png": "91e01b53f4c9ec6061df64c7ad2e4b3e7c980cda241994ce3dc2e538dd02a0d1",
+    "Boxers_normal.png": "77fd0c216b06a833c2155dd52eb9fa24cfc5a33a7cb205f0a3880c635a57f42a",
+    "EyeIrisBlue_unscattered.png": "092f7dbc102866b82d3860bfa7f97051c472e069f8f1e1691d42d89f0f313f04",
+    "Eyeball_unscattered.png": "8baa5e41f1d00bf3a654995aa991c7c4e2b59e95eecaa98547dade43acd498d4",
+    "Mouth_diffuse.png": "18300c457a3e668ebf50d89ee27ddf244f7f3bd5e276c74e614115b55fe288e4"
+  },
+  "modifications": [
+    "Restore body/head UV tiles as separate PBR materials",
+    "Convert selected textures to 2K color and 1K normal maps; auxiliary maps 512/1024",
+    "Simplify mouth and lashes; replace empty eyebrow emitters with tapered strands",
+    "Fit a 53-bone hierarchy to the new anatomy; create and normalize new skin weights; correct sole binding",
+    "Adapt eight existing procedural exercise loops and create transparent UI renders"
+  ],
+  "skeleton": {
+    "origin": "Existing MakeHuman game_engine hierarchy, fitted to this character; original skin weights are not used",
+    "asset_license": "CC0-1.0",
+    "provenance": "character-sources-makehuman.json"
+  },
+  "animation": "Project-authored procedural skeletal demonstration, not motion capture or professionally validated coaching",
+  "props": "Existing project-authored dumbbells attached to hand bones",
+  "authoring_blend": ".build/realistic-character/athlete-animated.blend",
+  "delivered_blend": "../characters/02_健身人物成品/健身人物_材质骨骼与八种动作.blend",
+  "bundled_outputs": "assets/models/athlete_<id>.glb and assets/images/athlete_<id>.png",
+  "orientation": "Blender Z-up, front -Y; glTF Y-up, front +Z",
+  "date": "2026-09-28"
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "web/review/quality-v2/shoulder_press.glb",
+  "sha256": "8b7e37660cd4179957220b181dbe88c3f409fdf2795f78de30da4690c4af9667",
+  "samples": 181,
+  "regions": {
+    "Muscle region core": {
+      "max_surface_offset_m": 0.0008000614845702392,
+      "max_weight_difference": 0
+    },
+    "Muscle region deltoids": {
+      "max_surface_offset_m": 0.0008002937020069463,
+      "max_weight_difference": 0
+    },
+    "Muscle region triceps": {
+      "max_surface_offset_m": 0.0008002937020069463,
+      "max_weight_difference": 0
+    }
+  }
+}

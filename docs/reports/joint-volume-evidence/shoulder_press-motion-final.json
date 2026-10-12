@@ -1,0 +1,29 @@
+{
+  "exercise": "shoulder_press",
+  "path": "web/review/quality-v2/shoulder_press.glb",
+  "samples": 361,
+  "wrist_axis_error_max_deg": 0.0,
+  "elbow_angle_range_deg": [
+    90.00002982523485,
+    172.9999900154204
+  ],
+  "shoulder_vertical_travel_m": 0.027099013328552246,
+  "clavicle_rotation_deg": 10.197548416683553,
+  "joint_gap_max_m": 7.734352225337569e-07,
+  "bone_length_error": 2.8217750346337667e-06,
+  "foot_drift_m": 2.4900995145840053e-07,
+  "skin_min_m": 6.052572280168533e-05,
+  "loop_m": 7.545345366699793e-07,
+  "orientation_step_max_deg": 1.4204858609100703,
+  "envelope_min": [
+    -0.4916899800300598,
+    -0.15753227472305298,
+    6.052572280168533e-05
+  ],
+  "envelope_max": [
+    0.4916899800300598,
+    0.1258898675441742,
+    1.7466721534729004
+  ],
+  "errors": []
+}
